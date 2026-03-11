@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "Search Project Name",
+  "findButton": "Find",
+  "propertyType": "Property Type",
+  "price": "Price AED",
+  "offeringType": "Offering Type",
+  "area": "Area",
+  "handover": "Hand Over",
+  "lifestyle": "Life Style",
+  "min": "Min",
+  "max": "Max",
+  "minPrice": "Min Price",
+  "maxPrice": "Max Price"
+}

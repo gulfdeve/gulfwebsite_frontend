@@ -1,0 +1,49 @@
+{
+  "title": "About Us",
+  "hero": {
+    "title": "About Gulf Estates - Dubai Luxury Real Estate Experts",
+    "subTitle": "We are committed to deliver an exceptional experience for both local and international clients",
+    "mediaSrc": "/images/about/bg.webp",
+    "mediaType": "image",
+    "height": "h-[500px]"
+  },
+
+  "intro": {
+    "heading": "Welcome to Gulf Estates - Where Luxury Meets Expertise",
+    "paragraph1": "At Gulf Estates, we don't just sell property; we craft futures. As an esteemed entity within the Centaurus Group, a global force in luxury sectors from yachts to e-commerce, we bring unmatched expertise to Dubai's dynamic real estate market. Our focus: connecting local and international clients with luxury residences that perfectly align with their aspirations, whether for a dream home, robust investment, or advantageous residency. Experience a property journey defined by insight, personalized service, and effortless success."
+  },
+
+  "legacySection1": {
+    "title": "Our Legacy",
+    "paragraph": "Established in 2007, the Centaurus Group stands as a beacon of excellence across diverse luxury sectors. From elevating premium drinks retail through Centaurus International to crafting bespoke voyages with Centaurus Charter, our journey is defined by unwavering quality, innovation, and client devotion. As a proud extension of this distinguished heritage, Gulf Estates reimagines the Dubai real estate landscape, granting clients unparalleled access to the city's most prestigious properties and opportunities.",
+    "buttonText": "MEET THE TEAM",
+    "imageSrc": "/images/about/legacy1.webp",
+    "imageAlt": "Legacy"
+  },
+
+  "missionVision": {
+    "mission": {
+      "title": "Our Mission",
+      "text": "Our mission is clear: to simplify and elevate the real estate journey for buyers, sellers, and investors alike. We are driven by a client-first philosophy, ensuring that every transaction is seamless, transparent, and tailored to meet your specific needs. Whether you’re investing in your dream property or seeking high-return investments, Gulf Estates is here to guide you every step of the way."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "We envision a future where Gulf Estates is synonymous with refined living, strategic investment, and exceptional client experiences. As a bridge between global aspirations and iconic Dubai properties, we strive to create a seamless path from desire to ownership. Through cutting-edge digital tools, enduring partnerships, and an unwavering commitment to excellence, we aim to shape Dubai’s skyline—not just with buildings, but with trust, legacy, and distinction."
+    },
+    "imageSrc": "/images/about/mission.webp",
+    "imageAlt": "Mission and Vision"
+  },
+  "dream": {
+    "title": "Your Dubai Dream Starts Here.",
+    "desc": "Whether you're a first-time homebuyer, a seasoned investor expanding your portfolio, or seeking long-term residency, Gulf Estates is your trusted guide. We specialize in transforming aspirations into reality, connecting you with the perfect address within Dubai's vibrant luxury real estate market.",
+    "btn1": "Professional Team",
+    "btn2": "Finance Analyst",
+    "btn3": "Best Price Guaranteed"
+  },
+  "statistics": {
+    "yearsOfExperience": "Years of Experience",
+    "satisfiedClients": "Satisfied Clients",
+    "certifiedAwards": "Certified Awards",
+    "projectsDone": "Projects Done"
+  }
+}

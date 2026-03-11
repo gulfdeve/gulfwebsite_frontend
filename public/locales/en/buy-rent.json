@@ -1,0 +1,26 @@
+{
+    "hero": {
+        "title": "Buy Real Estate with Confidence",
+        "subTitle": "Explore elite listings, off-plan investments, and exclusive developments in Dubai’s top locations.",
+        "mediaSrc": "/images/buy/bg-buy.jpg",
+        "mediaType": "image",
+        "height": "h-[500px]"
+    },
+    "rent-hero": {
+        "title": "Properties for Rent – Live Where You Love",
+        "subTitle": "Explore a wide range of rental properties tailored to your lifestyle and budget.",
+        "mediaSrc": "/images/rent/bg-rent.jpg",
+        "mediaType": "image",
+        "height": "h-[500px]"
+    },
+    "buyPage": {
+        "bannerTitle": "BUY PROPERTIES",
+        "sectionHighlight": "BUY",
+        "sectionTitle": "PROPERTIES"
+    },
+    "rentPage": {
+        "bannerTitle": "RENT PROPERTIES",
+        "sectionHighlight": "RENT",
+        "sectionTitle": "PROPERTIES"
+    }
+}

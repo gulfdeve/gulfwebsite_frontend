@@ -1,0 +1,77 @@
+{
+  "title": "Blogs Page",
+  "readMore": "Continue Reading",
+  "interestedIn": "Featured",
+  "otherArticles": "OTHER ARTICLES",
+  "hero": {
+    "title": "Your Guide to Smart Property Decisions",
+    "subTitle": "Your Go-To Source for Latest News and Tips",
+    "mediaSrc": "/images/blogs/bg-blog.png",
+    "mediaType": "image",
+    "height": "h-[500px]"
+  },
+  "button": "Continue Reading",
+  "amenities": {
+    "title": "Amenities"
+  },
+  "detailsPage": {
+    "notFound": "Blog not found",
+    "backToBlogs": "← Back to Blogs",
+    "breadcrumb": {
+      "home": "Home",
+      "blogs": "Our Blogs",
+      "separator": "›"
+    },
+    "contactCard": {
+      "title": "Contact Us",
+      "description": "We're here to help! Reach out with any questions, and our team will provide you with the support and solutions you need.",
+      "call": "CALL",
+      "email": "EMAIL",
+      "whatsapp": "WHATSAPP",
+      "share": "Share"
+    },
+    "ctaCard": {
+      "title": "List your property with us",
+      "description": "Get an instant property estimate in just a few minutes.",
+      "button": "Schedule a Property Valuation"
+    }
+  },
+  "form": {
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email Address",
+    "phonePlaceholder": "Phone no",
+    "textarea": "Message",
+    "submitButton": "Send Message",
+    "title": "Ready to experience the best in the business?",
+    "description": "Reach out to us with your requirements, and we'll get in touch soon!"
+  },
+  "youMightBeInterestedIn": "You might be interested in",
+  "filteredBlogs": "FILTERED BLOGS",
+  "latestArticles": "Latest Articles",
+  "mostViewed": "Most Viewed",
+  "justForYou": "Just For You",
+  "apply": "Apply",
+  "remove": "Remove",
+  "noBlogsMatch": "No blogs match your filter.",
+  "loadingBlogs": "Loading blog...",
+  "filters": "Filters",
+  "leaveAReply": {
+    "title": "LEAVE A",
+    "reply": "REPLY",
+    "emailNote": "Your email address will not be published. Required fields are marked *",
+    "comment": "Comment*",
+    "name": "Name*",
+    "email": "Email*",
+    "saveInfo": "Save my name, email, and website in this browser for the next time I comment.",
+    "submitting": "Submitting...",
+    "send": "Send",
+    "success": "Comment submitted successfully! It will appear after approval.",
+    "error": "Failed to submit comment. Please try again.",
+    "networkError": "Network error. Please try again."
+  },
+  "youMayAlsoLike": "YOU MAY ALSO",
+  "like": "LIKE",
+  "loadingRelatedBlogs": "Loading related blogs...",
+  "noRelatedBlogs": "No related blogs found.",
+  "blogsPage": "Blogs Page"
+}

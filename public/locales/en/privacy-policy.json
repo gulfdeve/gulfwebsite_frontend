@@ -1,0 +1,104 @@
+{
+  "title": "Privacy Policy",
+  "nav": [
+    { "id": "introduction", "label": "Introduction" },
+    { "id": "data-collection", "label": "Data Collection" },
+    { "id": "use-of-data", "label": "Use of Data" },
+    { "id": "cookies", "label": "Cookies" },
+    { "id": "third-party", "label": "Third Party Services" },
+    { "id": "rights", "label": "Your Rights" },
+    { "id": "contact", "label": "Contact us" }
+  ],
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "content": [
+        "Welcome to Gulf Estate. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our educational platform and use our services.",
+        "By accessing or using our platform, you agree to the collection and use of information in accordance with this policy. We are committed to protecting your privacy and ensuring your personal information is handled responsibly."
+      ]
+    },
+    {
+      "id": "data-collection",
+      "title": "Data Collection",
+      "content": [
+        "We collect information you provide directly to us, such as when you:"
+      ],
+      "bullets": [
+        "Create an account or profile",
+        "Enroll in courses or educational programs",
+        "Submit assignments or participate in discussions",
+        "Contact us for support or inquiries",
+        "Subscribe to our newsletters or updates"
+      ],
+      "footnote": "The types of information we may collect include your name, email address, educational background, course progress, and any other information you choose to provide."
+    },
+    {
+      "id": "use-of-data",
+      "title": "Use of Data",
+      "content": ["We use the information we collect to:"],
+      "bullets": [
+        "Provide, maintain, and improve our services",
+        "Respond to your comments, questions, and support requests",
+        "Analyze usage patterns to enhance user experience",
+        "Comply with legal obligations and protect our rights"
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Cookies",
+      "content": [
+        "We use cookies and similar tracking technologies to enhance your experience on our platform. Cookies help us remember your preferences and provide personalized content.",
+        "Types of cookies we use:"
+      ],
+      "bullets": [
+        "Essential Cookies: Required for basic platform functionality",
+        "Performance Cookies: Help us understand how you use our platform",
+        "Preference Cookies: Remember your settings and preferences",
+        "Marketing Cookies: Used to deliver relevant educational content"
+      ]
+    },
+    {
+      "id": "third-party",
+      "title": "Third Party Services",
+      "content": [
+        "We may use third-party services to enhance our educational platform. These services have their own privacy policies and may collect information about you.",
+        "Third-party services we include:"
+      ],
+      "bullets": [
+        "Analytics services to understand platform usage",
+        "Payment processors for course enrollments",
+        "Email services for communications",
+        "Cloud storage providers for content delivery",
+        "Video hosting platforms for educational content"
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "Your Rights",
+      "content": ["You have several rights regarding your personal information:"],
+      "bullets": [
+        "Access: Request a copy of the personal information we hold about you",
+        "Correction: Ask us to correct any inaccurate or incomplete information",
+        "Deletion: Request deletion of your personal information",
+        "Portability: Request a copy of your data in a structured format",
+        "Restriction: Ask us to limit how we use your information",
+        "Objection: Object to certain uses of your personal information"
+      ],
+      "footnote": "To exercise any of these rights, please contact us using the information provided in the Contact Us section below."
+    },
+    {
+      "id": "contact",
+      "title": "Contact us",
+      "content": [
+        "If you have any questions about this Privacy Policy or our privacy practices, please contact us:",
+        "Email: privacy@gulfestates.ae",
+        "Phone: 04 873 5835",
+        "Address: Office 402, Galadari Bldg. 17 Dubai Production City (IMPZ) P.O. Box 74461, Dubai, U.A.E.",
+        "Business Hours: Monday - Saturday (09:00 AM - 06:00 PM GST)",
+        "We will respond to your inquiry within 30 days of receiving your request."
+      ]
+    }
+  ]
+}
+

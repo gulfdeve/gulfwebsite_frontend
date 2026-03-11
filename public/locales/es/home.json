@@ -1,0 +1,70 @@
+{
+    "hero": {
+        "title": "Agencia inmobiliaria de lujo en Dubái para propiedades premium y sobre plano",
+        "subtitle": "Explore listados de élite, inversiones sobre plano y desarrollos exclusivos en las mejores ubicaciones de Dubái.",
+        "mediaType": "video",
+        "mediaSrc": "/videos/hero-video.mp4",
+        "height": "h-screen"
+    },
+    "about": {
+        "title": "SOBRE GULF ESTATES",
+        "description": "Gulf Estates es una agencia inmobiliaria líder en Dubái, especializada en propiedades de lujo, inversiones en construcción y oportunidades de alto rendimiento en las comunidades más exclusivas de los Emiratos Árabes Unidos. Ya sea que estés comprando, vendiendo o alquilando, ofrecemos acceso a villas, apartamentos y áticos cuidadosamente seleccionados en áreas icónicas como Downtown Dubai, Palm Jumeirah, Dubai Marina y Business Bay.",
+        "button": "EXPLORAR EL EQUIPO"
+    },
+    "off-plan": {
+        "sectionTitle1": "Principales",
+        "sectionTitle2": "desarrolladores inmobiliarios",
+        "sectionTitle3": "de los EAU y comunidades maestras",
+        "title": "EL PRINCIPAL",
+        "title2": "MERCADO",
+        "highlight": "INMOBILIARIO",
+        "p1": "El mercado inmobiliario de Dubái sigue prosperando, con las propiedades en construcción ofreciendo algunas de las oportunidades de inversión más gratificantes. Comprar bienes raíces en construcción no solo te permite asegurar unidades premium a precios de lanzamiento, sino que también abre la puerta a planes de pago flexibles y una fuerte apreciación del capital.",
+        "p2": "En Gulf Estates, seleccionamos una colección de los desarrollos en construcción más solicitados de desarrolladores líderes como Aldar, Ellington, Emaar, DAMAC y Sobha. Ya sea que estés invirtiendo para obtener ingresos por alquileres futuros o ganancias a largo plazo, las nuevas comunidades de Dubái están diseñadas para ofrecer valor, estilo de vida y retorno.",
+        "p3": "Comienza tu viaje con las direcciones más icónicas del mañana.",
+        "button": "Explorar Más",
+        "features": [
+            "DISEÑOS DE HOGAR INTELIGENTES",
+            "UBICACIONES PRIVILEGIADAS",
+            "SOLUCIONES DE VIDA SOSTENIBLE",
+            "MEJORES PLANES DE INVERSIÓN"
+        ]
+    },
+    "findHome": {
+        "title": "Explora",
+        "highlight": "las comunidades residenciales",
+        "title2": "de alta demanda en Dubái",
+        "subTitle" : "Explora las comunidades más exclusivas de Dubái, seleccionadas para tu forma única de vivir.",
+        "card1": "COMUNIDADES FRENTE AL AGUA Y LA PLAYA",
+        "card2": "COMUNIDADES DE VIDA DE LUJO",
+        "card3": "COMUNIDADES VERDES",
+        "card4": "COMUNIDADES RESIDENCIALES DE MARCA",
+        "list": {
+            "subTitle": "Permítenos Ayudarte a Listar tu Propiedad",
+            "title": "DESBLOQUEA EL VERDADERO VALOR DE TU HOGAR.",
+            "desc": "Nuestro equipo de expertos trabaja con cientos de compradores y inquilinos activos que buscan propiedades para comprar o alquilar en todo Dubái.",
+            "button": "Listar tu Propiedad"
+        }
+    },
+    "developer": {
+        "title": "Nuestros socios de desarrollo inmobiliario en Dubái",
+        "desc": "Nos asociamos con los principales desarrolladores de los Emiratos Árabes Unidos para ofrecer oportunidades inmobiliarias de primera en las ubicaciones más deseables del país."
+    },
+    "testimonial": {
+        "title": "",
+        "highlight": "Reseñas de clientes",
+        "title2": "y experiencias inmobiliarias en Dubái",
+        "subTitle": "CLIENTES",
+        "desc": "Escucha lo que nuestros clientes tienen que decir sobre su experiencia fluida y gratificante con Gulf Estates."
+    },
+    "blogs": {
+        "title": "Noticias inmobiliarias, análisis y tendencias del mercado en Dubái",
+        "button": "VER TODO"
+    },
+    "newsletter": {
+        "title": "SUSCRÍBETE A NUESTRO",
+        "highlight": "NEWSLETTER",
+        "description": "Únete a nuestra lista para recibir cada semana actualizaciones expertas sobre el mercado inmobiliario de los EAU.",
+        "placeholder": "Introduce tu correo electrónico",
+        "button": "Suscribirse"
+    }
+}

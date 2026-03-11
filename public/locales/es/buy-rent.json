@@ -1,0 +1,26 @@
+{
+    "hero": {
+        "title": "Compre bienes raíces con confianza",
+        "subTitle": "Explore listados de élite, inversiones sobre plano y desarrollos exclusivos en las mejores ubicaciones de Dubái.",
+        "mediaSrc": "/images/buy/bg-buy.jpg",
+        "mediaType": "image",
+        "height": "h-[500px]"
+    },
+    "rent-hero": {
+        "title": "Propriétés à louer – Vivez où vous aimez",
+        "subTitle": "Explore una amplia gama de propiedades de alquiler adaptadas a su estilo de vida y presupuesto.",
+        "mediaSrc": "/images/rent/bg-rent.jpg",
+        "mediaType": "image",
+        "height": "h-[500px]"
+    },
+    "buyPage": {
+        "bannerTitle": "COMPRAR PROPIEDADES",
+        "sectionHighlight": "COMPRAR",
+        "sectionTitle": "PROPIEDADES"
+    },
+    "rentPage": {
+        "bannerTitle": "ALQUILAR PROPIEDADES",
+        "sectionHighlight": "ALQUILER",
+        "sectionTitle": "PROPIEDADES"
+    }
+}

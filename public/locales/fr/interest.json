@@ -1,0 +1,15 @@
+{
+  "section": {
+    "title": "Enregistrez votre intérêt",
+    "description": "Soyez le premier informé du lancement exclusif de {{projectName}}. Enregistrez votre intérêt dès maintenant et nous vous tiendrons au courant des derniers développements et de l'accès prioritaire."
+  },
+  "form": {
+    "namePlaceholder": "Nom complet",
+    "emailPlaceholder": "Adresse email",
+    "phonePlaceholder": "Numéro de téléphone",
+    "submitButton": "Soumettre",
+    "submitting": "Envoi en cours...",
+    "successMessage": "Merci ! Nous avons bien reçu votre demande et vous contacterons bientôt.",
+    "errorMessage": "Quelque chose s'est mal passé. Veuillez réessayer."
+  }
+}

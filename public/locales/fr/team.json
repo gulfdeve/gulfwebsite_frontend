@@ -1,0 +1,25 @@
+{
+  "title": "Notre équipe - Les experts derrière Gulf Estates",
+  "hero": {
+    "title": "Les personnes derrière notre succès",
+    "subtitle": "Une équipe dévouée de professionnels de l'immobilier engagés à vous aider à acheter, vendre et investir en toute confiance.",
+    "mediaSrc": "/images/team/team-bg.webp",
+    "mediaType": "image",
+    "height": "h-[450px]"
+  },
+  "header": {
+    "title": "Rencontrez les visionnaires derrière Gulf Estates",
+    "description": "Notre équipe est un groupe dynamique de professionnels expérimentés, chacun dédié à fournir un service exceptionnel et des conseils d'experts. Avec une passion partagée pour l'excellence, nous nous engageons à vous aider à naviguer dans le marché immobilier de luxe de Dubaï et à transformer vos aspirations immobilières en réalité."
+  },
+  "ceo": {
+    "name": "Alexandre Photiou",
+    "title": "Entrepreneur visionnaire et PDG",
+    "bio": "Un entrepreneur dynamique et PDG, à la tête de Gulf Sea Real Estate LLC, une entreprise de premier plan spécialisée dans les propriétés résidentielles de luxe et les opportunités d'investissement aux Émirats Arabes Unis. Avec un solide historique dans l'immobilier de grande valeur, il a bâti une réputation pour offrir des propriétés exceptionnelles et des opportunités d'investissement dans des emplacements privilégiés. Au-delà de l'immobilier, son portefeuille diversifié couvre plusieurs industries, y compris la location de yachts de luxe, la logistique et la gestion d'événements. Avec un état d'esprit stratégique et une passion pour l'innovation, il a réussi à développer des entreprises répondant aux besoins des individus à haut patrimoine aux Émirats Arabes Unis. Son leadership est défini par l'excellence, l'efficacité opérationnelle et une approche centrée sur le client, le positionnant comme un acteur clé dans l'industrie."
+  },
+  "departments": {
+    "sales-team": "Équipe de vente",
+    "operations-team": "Équipe des opérations",
+    "marketing-and-media-creatives": "Créatifs en marketing et médias",
+    "logistic": "Logistique"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "title": "Des maisons prêtes pour l'avenir aux prix d'aujourd'hui",
+    "subTitle": "Explorez les développements et opportunités à venir",
+    "mediaType": "image",
+    "mediaSrc": "/images/off-plans/bg.jpg",
+    "height": "h-screen"
+  },
+  "pageHeading": {
+    "bannerTitle": "Propriétés sur plan à vendre aux EAU",
+    "sectionHighlight": "Explorez les appartements et villas sur plan premium",
+    "sectionTitle": "Appartements & Villas"
+  },
+  "offPlanList": {
+    "error": "Une erreur est survenue lors du chargement des propriétés.",
+    "retry": "Réessayer",
+    "noProperties": "Aucune propriété trouvée",
+    "tryDifferentFilters": "Essayez d’ajuster vos filtres de recherche",
+    "developer": "Promoteur",
+    "type": "Type",
+    "handoverDate": "Remise des clés",
+    "priceFrom": "Prix à partir de",
+    "paymentPlan": "Plan de paiement",
+    "call": "Appeler",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "errorTitle": "Oups ! Une erreur s’est produite",
+    "errorMessage": "Nous n’avons pas pu charger la page ou la liste de propriétés que vous recherchez. Elle a peut-être été déplacée ou supprimée.",
+    "goHome": "Retour à l’accueil"
+  },
+  "id": {
+    "home": "Accueil",
+    "offPlan": "Plan Futur",
+    "registerInterest": "Enregistrez votre intérêt",
+    "startingPrice": "Prix de départ",
+    "paymentPlan": "Plan de paiement",
+    "developer": "Promoteur",
+    "handoverDate": "Date de remise",
+    "floorPlan": "Plan d’étage",
+    "available": "Disponible",
+    "propertyDetails": "Détails de la propriété",
+    "propertyType": "Type de Propriété",
+    "bathrooms": "Salles de Bain",
+    "propertySize": "Taille de la Propriété",
+    "serviceCharges": "Charges de Service",
+    "bedrooms": "Chambres",
+    "location": "Emplacement",
+    "similarOffPlans": "Projets hors plan similaires",
+    "locationUnknown": "Emplacement inconnu",
+    "priceOnRequest": "Prix sur demande",
+    "fetchError": "Une erreur s'est produite lors du chargement des projets",
+    "propertyNotFound": "La propriété n'a peut-être pas été trouvée ou une erreur s'est produite. Veuillez actualiser la page.",
+    "refreshPage": "Actualiser la page",
+    "downloadBrochure": "TÉLÉCHARGER LA BROCHURE",
+    "downloadAllFloorPlans": "TÉLÉCHARGER TOUS LES PLANS D’ÉTAGE",
+    "bookViewing": "Réserver une visite",
+    "nearbyLandmarks": "Lieux à proximité",
+    "dldNumber": "Numéro de permis DLD",
+    "dldDesc": "Cette annonce immobilière a été examinée et vérifiée par le Département des Terres de Dubaï",
+    "call": "APPELER",
+    "email": "E-MAIL",
+    "whatsapp": "WhatsApp",
+    "share": "Partager",
+    "knowMore": "Vous voulez en savoir plus ?"
+  },
+  "similar": {
+    "title": "Explorez Plus d'Investissements de Luxe Sur Plan"
+  },
+  "sort": {
+    "sortBy": "Trier par",
+    "default": "Par défaut",
+    "newest": "Plus récent",
+    "oldest": "Plus ancien",
+    "lowestPrice": "Prix le plus bas",
+    "highestPrice": "Prix le plus élevé"
+  },
+  "sections": {
+    "nearbyLandmarks": "Lieux à proximité",
+    "gallery": "Galerie"
+  },
+  "landmarks": {
+    "school": "École",
+    "supermarket": "Supermarché",
+    "mall": "Centre commercial",
+    "park": "Parc"
+  },
+  "timeUnknown": "N/A",
+  "common": {
+    "property": "Propriété",
+    "locationNotSpecified": "Emplacement non spécifié",
+    "unknown": "Inconnu",
+    "sqFt": "pieds carrés",
+    "mainImage": "Image principale",
+    "propertyImage": "Image de la propriété",
+    "nearbyLandmark": "Point de repère à proximité",
+    "previousSlide": "Diapositive précédente",
+    "nextSlide": "Diapositive suivante",
+    "removeFilter": "Retirer le filtre",
+    "notAvailable": "N/D"
+  }
+}

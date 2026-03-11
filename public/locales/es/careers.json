@@ -1,0 +1,69 @@
+{
+    "hero": {
+        "label": "Carreras en Gulf Estates | Únete a Nuestro Equipo Inmobiliario en EAU",
+        "title": "Construye el Futuro de las Propiedades en la Región del Golfo.",
+        "desc": "Únete a Gulf Estate, un líder dinámico que está dando forma al panorama de propiedades de lujo y comerciales en el CCG. Ofrecemos oportunidades de crecimiento inigualables en un entorno de alto impacto y tecnológicamente avanzado."
+    },
+    "be-part": {
+        "title": "Sé Parte de Nuestra Misión",
+        "desc": "Buscamos personas apasionadas para unirse a nuestra misión. Valoramos la comunicación clara y la completa responsabilidad y compromiso."
+    },
+    "jobs": {
+        "propertyAdvisor": {
+            "title": "Asesor de Propiedades",
+            "desc": "Buscamos un asesor de propiedades de nivel medio para unirse a nuestro equipo."
+        },
+        "seniorPropertyAdvisor": {
+            "title": "Asesor de Propiedades Senior",
+            "desc": "Buscamos un asesor de propiedades de nivel medio para unirse a nuestro equipo."
+        },
+        "tags": {
+            "onSite": "En el sitio",
+            "fullTime": "Tiempo completo",
+            "open": "Abierto"
+        }
+    },
+    "contact": {
+        "contact-us": "Contáctanos en",
+        "email-us": "O envíanos un correo a",
+        "emailAddress": "admin@gulfestates.ae"
+    },
+    "sections": {
+        "blogs": {
+            "title": "Descubre nuestros últimos artículos",
+            "button": "Descubre nuestra página de blogs"
+        },
+        "properties": {
+            "title": "Explora nuestras propiedades más vendidas",
+            "button": "Descubre nuestras propiedades fuera de plan"
+        }
+    },
+    "application": {
+        "title": "Subir Currículum y Portafolio",
+        "description": "Solicita este trabajo en unos pocos clics. El reclutador necesita tu currículum actualizado y prueba de trabajo.",
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Correo electrónico",
+        "coverLetter": "Carta de presentación",
+        "coverLetterPlaceholder": "Escribe tu carta de presentación aquí...",
+        "resume": "Currículum",
+        "portfolio": "Portafolio",
+        "optional": "Opcional",
+        "dragDrop": "Arrastra y suelta o",
+        "chooseFile": "Elige archivo",
+        "fileFormat": "PDF o DOCX Máx. 3.0MB",
+        "fileSelected": "Seleccionado:",
+        "submit": "ENVIAR",
+        "submitting": "Enviando...",
+        "success": "¡Solicitud enviada con éxito!",
+        "errors": {
+            "requiredFields": "Todos los campos son obligatorios",
+            "resumeRequired": "El currículum es obligatorio",
+            "pdfOnly": "Solo se permiten archivos PDF",
+            "pdfDocxOnly": "Solo se permiten archivos PDF y DOCX",
+            "executableBlocked": "No se permiten archivos ejecutables. Sube solo PDF o DOCX.",
+            "fileSize": "El tamaño del archivo debe ser menor a 3MB",
+            "submit": "Error al enviar la solicitud"
+        }
+    }
+}

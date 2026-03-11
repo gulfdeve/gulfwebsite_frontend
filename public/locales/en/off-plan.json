@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "title": "Future-Ready Homes at Today’s Prices",
+    "subTitle": "Explore Upcoming Developments and Opportunities",
+    "mediaType": "image",
+    "mediaSrc": "/images/off-plans/bg.jpg",
+    "height": "h-500px"
+  },
+  "pageHeading": {
+    "bannerTitle": "Off Plan Properties for Sale in UAE",
+    "sectionHighlight": "Explore Premium Off-Plan",
+    "sectionTitle": "Apartments & Villas"
+  },
+  "offPlanList": {
+     "error": "Something went wrong while loading properties.",
+    "retry": "Try Again",
+    "noProperties": "No properties found",
+    "tryDifferentFilters": "Try adjusting your search filters",
+    "developer": "Developer",
+    "type": "Type",
+    "handoverDate": "Handover",
+    "priceFrom": "Price From",
+    "paymentPlan": "Payment Plan",
+    "call": "Call",
+    "email": "Email",
+    "errorTitle": "Oops! Something went wrong",
+    "errorMessage": "We couldn’t load the page or property list you were looking for. It may have been moved or deleted.",
+    "goHome": "Go Home",
+    "whatsapp": "WHATSAPP"
+  },
+  "id": {
+    "home": "Home",
+    "offPlan": "Off Plan",
+    "registerInterest": "Register Your Interest",
+    "startingPrice": "Starting Price",
+    "paymentPlan": "Payment Plan",
+    "developer": "Developer",
+    "handoverDate": "Handover Date",
+    "floorPlan": "Floor Plan",
+    "available": "Available",
+    "propertyDetails": "Property Details",
+    "propertyType": "Property Type",
+    "bathrooms": "Bathrooms",
+    "similarOffPlans": "Similar Off-Plan Projects",
+    "locationUnknown": "Location unknown",
+    "priceOnRequest": "Price on request",
+    "fetchError": "An error occurred while fetching projects",
+    "propertyNotFound": "Property may not be found or some error occurred. Please refresh the page.",
+    "refreshPage": "Refresh Page",
+    "propertySize": "Property Size",
+    "serviceCharges": "Service Charges",
+    "bedrooms": "Bedrooms",
+    "location": "Location",
+    "downloadBrochure": "Download Brochure",
+    "downloadAllFloorPlans": "Download All Floor Plans",
+    "bookViewing": "Book a Viewing",
+    "nearbyLandmarks": "Nearby Landmarks",
+    "dldNumber": "DLD Permit Number:",
+    "dldDesc": "This property listing has been reviewed and verified by Dubai Land Department",
+    "call": "Call",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "share": "Share",
+    "knowMore": "Want To Know More ?"
+  },
+  "similar": {
+    "title": "Explore More Luxury Off-Plan Investments"
+  },
+  "sort": {
+    "sortBy": "Sort By",
+    "default": "Default",
+    "newest": "Newest",
+    "oldest": "Oldest",
+    "lowestPrice": "Lowest Price",
+    "highestPrice": "Highest Price"
+  },
+  "sections": {
+    "nearbyLandmarks": "Nearby Landmarks",
+    "gallery": "Gallery"
+  },
+  "landmarks": {
+    "school": "School",
+    "supermarket": "Supermarket",
+    "mall": "Shopping Mall",
+    "park": "Park"
+  },
+  "timeUnknown": "N/A",
+  "common": {
+    "property": "Property",
+    "locationNotSpecified": "Location not specified",
+    "unknown": "Unknown",
+    "sqFt": "sq ft",
+    "mainImage": "Main image",
+    "propertyImage": "Property image",
+    "nearbyLandmark": "Nearby landmark",
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "removeFilter": "Remove filter",
+    "notAvailable": "N/A"
+  }
+}

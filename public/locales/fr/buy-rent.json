@@ -1,0 +1,26 @@
+{
+    "hero": {
+        "title": "Achetez un bien immobilier en toute confiance",
+        "subTitle": "Découvrez des annonces d’élite, des investissements sur plan et des développements exclusifs dans les meilleurs emplacements de Dubaï.",
+        "mediaSrc": "/images/buy/bg-buy.jpg",
+        "mediaType": "image",
+        "height": "h-[500px]"
+    },
+    "rent-hero": {
+        "title": "Propiedades en alquiler: vive donde amas",
+        "subTitle": "Découvrez une large gamme de propriétés locatives adaptées à votre style de vie et à votre budget.",
+        "mediaSrc": "/images/rent/bg-rent.jpg",
+        "mediaType": "image",
+        "height": "h-[500px]"
+    },
+    "buyPage": {
+        "bannerTitle": "ACHETER DES PROPRIÉTÉS",
+        "sectionHighlight": "ACHETER",
+        "sectionTitle": "PROPRIÉTÉS"
+    },
+    "rentPage": {
+        "bannerTitle": "LOUER DES PROPRIÉTÉS",
+        "sectionHighlight": "LOUER",
+        "sectionTitle": "PROPRIÉTÉS"
+    }
+}

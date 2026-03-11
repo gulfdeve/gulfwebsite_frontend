@@ -1,0 +1,69 @@
+{
+    "hero": {
+        "label": "Carrières chez Gulf Estates | Rejoignez Notre Équipe Immobilière aux EAU",
+        "title": "Construisez l'avenir de l'immobilier dans la région du Golfe.",
+        "desc": "Rejoignez Gulf Estate, un leader dynamique qui façonne le paysage de l'immobilier de luxe et commercial dans le CCG. Nous offrons des opportunités de croissance inégalées dans un environnement à fort impact et technologiquement avancé."
+    },
+    "be-part": {
+        "title": "Faites Partie de Notre Mission",
+        "desc": "Nous recherchons des personnes passionnées pour rejoindre notre mission. Nous valorisons une communication claire, ainsi qu'un sens complet de responsabilité et d'engagement."
+    },
+    "jobs": {
+        "propertyAdvisor": {
+            "title": "Conseiller Immobilier",
+            "desc": "Nous recherchons un conseiller immobilier de niveau intermédiaire pour rejoindre notre équipe."
+        },
+        "seniorPropertyAdvisor": {
+            "title": "Conseiller Immobilier Senior",
+            "desc": "Nous recherchons un conseiller immobilier de niveau intermédiaire pour rejoindre notre équipe."
+        },
+        "tags": {
+            "onSite": "Sur site",
+            "fullTime": "Temps plein",
+            "open": "Ouvert"
+        }
+    },
+    "contact": {
+        "contact-us": "Contactez-nous au",
+        "email-us": "Ou envoyez-nous un e-mail à",
+        "emailAddress": "admin@gulfestates.ae"
+    },
+    "sections": {
+        "blogs": {
+            "title": "Découvrez nos derniers articles",
+            "button": "Découvrez notre page de blogs"
+        },
+        "properties": {
+            "title": "Explorez nos propriétés les plus vendues",
+            "button": "Découvrez nos propriétés hors plan"
+        }
+    },
+    "application": {
+        "title": "Télécharger CV et Portfolio",
+        "description": "Postulez pour ce poste en quelques clics. Le recruteur a besoin de votre CV à jour et de preuves de votre travail.",
+        "firstName": "Prénom",
+        "lastName": "Nom de famille",
+        "email": "E-mail",
+        "coverLetter": "Lettre de motivation",
+        "coverLetterPlaceholder": "Rédigez votre lettre de motivation ici...",
+        "resume": "CV",
+        "portfolio": "Portfolio",
+        "optional": "Optionnel",
+        "dragDrop": "Glisser-déposer ou",
+        "chooseFile": "Choisir un fichier",
+        "fileFormat": "PDF ou DOCX Max 3.0MB",
+        "fileSelected": "Sélectionné:",
+        "submit": "SOUMETTRE",
+        "submitting": "Envoi en cours...",
+        "success": "Candidature soumise avec succès!",
+        "errors": {
+            "requiredFields": "Tous les champs sont obligatoires",
+            "resumeRequired": "Le CV est obligatoire",
+            "pdfOnly": "Seuls les fichiers PDF sont autorisés",
+            "pdfDocxOnly": "Seuls les fichiers PDF et DOCX sont autorisés",
+            "executableBlocked": "Les fichiers exécutables ne sont pas autorisés. Veuillez télécharger uniquement des fichiers PDF ou DOCX.",
+            "fileSize": "La taille du fichier doit être inférieure à 3MB",
+            "submit": "Échec de la soumission de la candidature"
+        }
+    }
+}

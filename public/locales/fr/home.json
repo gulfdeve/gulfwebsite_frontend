@@ -1,0 +1,70 @@
+{
+    "hero": {
+        "title": "Agence immobilière de luxe à Dubaï pour propriétés premium et sur plan",
+        "subtitle": "Découvrez des annonces d'élite, des investissements sur plan et des développements exclusifs dans les meilleurs emplacements de Dubaï.",
+        "mediaType": "video",
+        "mediaSrc": "/videos/hero-video.mp4",
+        "height": "h-screen"
+    },
+    "about": {
+        "title": "À PROPOS DE GULF ESTATES",
+        "description": "Gulf Estates est une agence immobilière de premier plan à Dubaï, spécialisée dans les propriétés de luxe, les investissements sur plan et les opportunités à haut rendement dans les communautés les plus exclusives des Émirats Arabes Unis. Que vous achetiez, vendiez ou louiez, nous offrons un accès à des villas, appartements et penthouses soigneusement sélectionnés dans des zones emblématiques comme Downtown Dubai, Palm Jumeirah, Dubai Marina et Business Bay.",
+        "button": "DÉCOUVRIR L'ÉQUIPE"
+    },
+    "off-plan": {
+        "sectionTitle1": "Principaux",
+        "sectionTitle2": "promoteurs immobiliers",
+        "sectionTitle3": "des Émirats Arabes Unis et communautés maîtres",
+        "title": "LA PRINCIPALE",
+        "title2": "PLACE DE MARCHÉ",
+        "highlight": "IMMOBILIÈRE",
+        "p1": "Le marché immobilier de Dubaï continue de prospérer, avec les propriétés sur plan offrant certaines des opportunités d'investissement les plus gratifiantes. Acheter des biens immobiliers en construction permet non seulement de sécuriser des unités premium à des prix de lancement, mais ouvre également la porte à des plans de paiement flexibles et à une forte appréciation du capital.",
+        "p2": "Chez Gulf Estates, nous sélectionnons une collection des développements sur plan les plus recherchés des principaux promoteurs tels qu'Aldar, Ellington, Emaar, DAMAC et Sobha. Que vous investissiez pour des revenus locatifs futurs ou des gains à long terme, les nouvelles communautés de Dubaï sont conçues pour offrir de la valeur, un style de vie et un retour sur investissement.",
+        "p3": "Commencez votre voyage avec les adresses les plus emblématiques de demain.",
+        "button": "En savoir plus",
+        "features": [
+            "DESIGN DE MAISON INTELLIGENTE",
+            "EMPLACEMENTS PRIMES",
+            "SOLUTIONS DE VIE DURABLE",
+            "MEILLEURS PLANS D'INVESTISSEMENT"
+        ]
+    },
+    "findHome": {
+        "title": "Explorez",
+        "highlight": "les communautés résidentielles",
+        "title2": "à forte demande à Dubaï",
+        "subTitle" : "Explorez les communautés les plus exclusives de Dubaï, sélectionnées pour votre mode de vie unique.",
+        "card1": "COMMUNAUTÉS EN BORD DE MER ET DE PLAGE",
+        "card2": "COMMUNAUTÉS DE VIE DE LUXE",
+        "card3": "COMMUNAUTÉS VERTES",
+        "card4": "COMMUNAUTÉS RÉSIDENTIELLES DE MARQUE",
+        "list": {
+            "subTitle": "Laissez-nous vous aider à lister votre propriété",
+            "title": "DÉBLOQUEZ LA VRAIE VALEUR DE VOTRE MAISON.",
+            "desc": "Notre équipe d'experts travaille avec des centaines d'acheteurs et de locataires actifs à la recherche de propriétés à acheter ou à louer à travers Dubaï.",
+            "button": "Lister votre propriété"
+        }
+    },
+    "developer": {
+        "title": "Nos partenaires de développement immobilier à Dubaï",
+        "desc": "Nous collaborons avec les principaux promoteurs des Émirats Arabes Unis pour offrir des opportunités immobilières de premier ordre dans les emplacements les plus prisés du pays."
+    },
+    "testimonial": {
+        "title": "",
+        "highlight": "Avis clients",
+        "title2": "et expériences immobilières à Dubaï",
+        "subTitle": "CLIENTS",
+        "desc": "Écoutez ce que nos clients disent de leur expérience fluide et gratifiante avec Gulf Estates."
+    },
+    "blogs": {
+        "title": "Actualités immobilières, analyses et tendances du marché à Dubaï",
+        "button": "VOIR TOUT"
+    },
+    "newsletter": {
+        "title": "ABONNEZ-VOUS À NOTRE",
+        "highlight": "NEWSLETTER",
+        "description": "Rejoignez notre liste pour recevoir chaque semaine des mises à jour expertes sur l'immobilier aux Émirats arabes unis.",
+        "placeholder": "Entrez votre adresse e-mail",
+        "button": "S'abonner"
+    }
+}

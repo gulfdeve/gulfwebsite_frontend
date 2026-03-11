@@ -1,0 +1,78 @@
+{
+  "title": "Página de blogs",
+  "interestedIn": "Destacados",
+  "otherArticles": "OTROS ARTÍCULOS",
+  "hero": {
+    "title": "Su guía para tomar decisiones inmobiliarias inteligentes",
+    "subTitle": "Su fuente de referencia para las últimas noticias y consejos",
+    "mediaSrc": "/images/off-plans/bg.jpg",
+    "mediaType": "image",
+    "height": "h-[500px]"
+  },
+  "button": "Continuar leyendo",
+  "amenities": {
+    "title": "Comodidades"
+  },
+  "detailsPage": {
+    "notFound": "blog no encontrado",
+    "backToBlogs": "← volver a los blogs",
+    "breadcrumb": {
+      "home": "Inicio",
+      "blogs": "Nuestros Blogs",
+      "separator": "›"
+    },
+    "contactCard": {
+      "title": "Contáctanos",
+      "description": "¡Estamos aquí para ayudarte! No dudes en hacer cualquier pregunta y nuestro equipo te proporcionará el soporte y las soluciones que necesites.",
+      "call": "LLAMAR",
+      "email": "CORREO",
+      "whatsapp": "WHATSAPP",
+      "share": "Compartir"
+    },
+    "ctaCard": {
+      "title": "Publica tu propiedad con nosotros",
+      "description": "Obtén una estimación instantánea de tu propiedad en solo unos minutos.",
+      "button": "Programar valoración de propiedad"
+    }
+  },
+  "form": {
+    "namePlaceholder": "Nombre",
+    "emailPlaceholder": "Dirección de Correo Electrónico",
+    "phonePlaceholder": "Número de Teléfono",
+    "textarea": "Mensaje",
+    "submitButton": "Enviar Mensaje",
+    "title": "¿Listo para vivir lo mejor del sector?",
+    "description": "Envíanos tus requisitos y nos pondremos en contacto contigo pronto."
+  },
+  "youMightBeInterestedIn": "Podría interesarte",
+  "readMore": "Leer más",
+  "filteredBlogs": "BLOGS FILTRADOS",
+  "latestArticles": "Artículos recientes",
+  "mostViewed": "Más vistos",
+  "justForYou": "Solo para ti",
+  "apply": "Aplicar",
+  "remove": "Quitar",
+  "otherArticles": "OTROS ARTÍCULOS",
+  "noBlogsMatch": "No hay blogs que coincidan con tu filtro.",
+  "loadingBlogs": "Cargando blog...",
+  "filters": "Filtros",
+  "leaveAReply": {
+    "title": "DEJAR UN",
+    "reply": "COMENTARIO",
+    "emailNote": "Su dirección de correo electrónico no será publicada. Los campos obligatorios están marcados *",
+    "comment": "Comentario*",
+    "name": "Nombre*",
+    "email": "Correo electrónico*",
+    "saveInfo": "Guardar mi nombre, correo electrónico y sitio web en este navegador para la próxima vez que comente.",
+    "submitting": "Enviando...",
+    "send": "Enviar",
+    "success": "¡Comentario enviado con éxito! Aparecerá después de la aprobación.",
+    "error": "Error al enviar el comentario. Por favor, inténtelo de nuevo.",
+    "networkError": "Error de red. Por favor, inténtelo de nuevo."
+  },
+  "youMayAlsoLike": "TAMBIÉN PODRÍAS",
+  "like": "GUSTAR",
+  "loadingRelatedBlogs": "Cargando blogs relacionados...",
+  "noRelatedBlogs": "No se encontraron blogs relacionados.",
+  "blogsPage": "Página de blogs"
+}

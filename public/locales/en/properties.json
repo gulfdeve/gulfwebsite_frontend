@@ -1,0 +1,36 @@
+{
+  "buttons": {
+    "loadMore": "Load More"
+  },
+  "hero": {
+    "title": "Discover Homes & Investments",
+    "subTitle": "Browse the latest listings across residential, commercial, and investment properties.",
+    "mediaType": "image",
+    "mediaSrc": "/images/properties-bg.webp",
+    "height": "h-[500px]"
+  },
+  "pageHeading": {
+    "bannerTitle": "PROPERTIES",
+    "sectionHighlight": "ALL",
+    "sectionTitle": "PROPERTIES"
+  },
+  "properties": {
+    "notFound": "Property not found",
+    "breadcrumbHome": "Home",
+    "propertyDetailsTitle": "Property Details",
+    "buildingInfoTitle": "Building Information",
+    "locationTitle": "Location",
+    "tenanted": "Tenanted till November 2025",
+    "furnished": "Furnished",
+    "communityView": "Community View",
+    "primeLocation": "Prime Location",
+    "parkingSpaces": "Parking Spaces",
+    "bookViewing": "Book a Viewing",
+    "call": "Call",
+    "email": "Email",
+    "whatsapp": "WhatsApp"
+  },
+  "id": {
+    "welcome": "Gulf Estates welcomes you to this beautiful property located in"
+  }
+}

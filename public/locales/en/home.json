@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "title": "Dubai Luxury Real Estate Agency for Premium & Off-Plan Properties",
+    "subtitle": "Explore elite listings, off-plan investments and exclusive developments in Dubai's top locations.",
+    "mediaType": "video",
+    "mediaSrc": "/videos/hero-video.mp4",
+    "height": "h-screen"
+  },
+  "about": {
+    "title": "ABOUT GULF ESTATES",
+    "description": "Gulf Estates is a premier real estate agency in Dubai, specializing in luxury properties, off-plan investments, and high-return opportunities in the UAE’s most exclusive communities. Whether you’re buying, selling, or renting, we provide access to handpicked villas, apartments, and penthouses in iconic areas like Downtown Dubai, Palm Jumeirah, Dubai Marina, and Business Bay.",
+    "button": "EXPLORE THE TEAM"
+  },
+  "off-plan": {
+    "sectionTitle1": "Leading UAE",
+    "sectionTitle2": "Property Developers",
+    "sectionTitle3": "& Master Communities",
+    "title": "THE LEADING",
+    "title2": "MARKETPLACE",
+    "highlight": "REAL ESTATE",
+    "p1": "Dubai’s real estate market continues to thrive, with off-plan properties offering some of the most rewarding investment opportunities. Buying under-construction real estate not only allows you to secure premium units at launch prices, but also opens the door to flexible payment plans and strong capital appreciation.",
+    "p2": "At Gulf Estates, we curate a selection of the most sought-after off-plan developments from leading developers like Aldar, Ellington, Emaar, DAMAC, and Sobha. Whether you're investing for future rental income or long-term gains, Dubai’s new communities are designed to deliver on value, lifestyle, and return.",
+    "p3": "Start your journey with tomorrow’s most iconic addresses.",
+    "button": "Explore More",
+    "features": [
+      "SMART HOME DESIGNS",
+      "PRIME LOCATIONS",
+      "SUSTAINABLE LIVING SOLUTIONS",
+      "BEST INVESTMENT PLANS"
+    ]
+  },
+  "findHome": {
+    "title": "Explore High-Demand",
+    "highlight": "Residential Communities",
+    "title2": "in Dubai",
+    "subTitle": "Explore Dubai's most exclusive communities, curated for your unique way of living.",
+    "card1": "WATERFRONT & BEACHFRONT COMMUNITIES",
+    "card2": "LUXURY LIVING COMMUNITIES",
+    "card3": "GREEN COMMUNITIES",
+    "card4": "BRANDED RESIDENTIAL COMMUNITIES",
+    "list": {
+      "subTitle": "Let Us Help You List Your Property",
+      "title": "UNLOCK THE TRUE VALUE OF YOUR HOME.",
+      "desc": "Our expert team works with hundreds of active buyers and tenants actively searching for properties to buy or rent across Dubai.",
+      "button": "List Your Property"
+    }
+  },
+  "developer": {
+    "title": "Our Real Estate Development Partners in Dubai",
+    "desc": "We partner with the UAE's leading developers to offer premium real estate opportunities in the most desirable locations across the country."
+  },
+  "testimonial": {
+    "title": "",
+    "highlight": "Client Reviews",
+    "title2": "& Real Estate Experiences in Dubai",
+    "subTitle": "SAY",
+    "desc": "Hear what our clients have to say about their seamless, rewarding experience with Gulf Estates."
+  },
+  "blogs": {
+    "title": "Dubai Real Estate News, Insights & Market Trends",
+    "button": "VIEW ALL"
+  },
+  "newsletter": {
+    "title": "SUBSCRIBE TO OUR",
+    "highlight": "NEWSLETTER",
+    "description": "Join our mailing list for expert updates on UAE real estate every week",
+    "placeholder": "Enter your email address",
+    "button": "Subscribe"
+  }
+}

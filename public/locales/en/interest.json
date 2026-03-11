@@ -1,0 +1,15 @@
+{
+  "section": {
+    "title": "Register Your Interest",
+    "description": "Be the first to know about the exclusive launch of {{projectName}}. Register your interest now and we'll keep you updated with the latest developments and priority access."
+  },
+  "form": {
+    "namePlaceholder": "Full Name",
+    "emailPlaceholder": "Email Address",
+    "phonePlaceholder": "Phone Number",
+    "submitButton": "Submit",
+    "submitting": "Submitting...",
+    "successMessage": "Thank you! We've received your interest and will contact you soon.",
+    "errorMessage": "Something went wrong. Please try again."
+  }
+}

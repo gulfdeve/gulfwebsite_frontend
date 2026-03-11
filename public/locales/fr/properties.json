@@ -1,0 +1,36 @@
+{
+  "buttons": {
+    "loadMore": "Charger plus"
+  },
+  "hero": {
+    "title": "Découvrez les maisons et les investissements",
+    "subTitle": "Parcourez les dernières annonces de propriétés résidentielles, commerciales et d'investissement.",
+    "mediaType": "image",
+    "mediaSrc": "/images/properties-bg.webp",
+    "height": "h-[500px]"
+  },
+  "pageHeading": {
+    "bannerTitle": "PROPRIÉTÉS",
+    "sectionHighlight": "TOUTES",
+    "sectionTitle": "PROPRIÉTÉS"
+  },
+  "properties": {
+    "notFound": "Propriété introuvable",
+    "breadcrumbHome": "Accueil",
+    "propertyDetailsTitle": "Détails de la propriété",
+    "buildingInfoTitle": "Informations sur le bâtiment",
+    "locationTitle": "Emplacement",
+    "tenanted": "Loué jusqu'en novembre 2025",
+    "furnished": "Meublé",
+    "communityView": "Vue sur la communauté",
+    "primeLocation": "Emplacement privilégié",
+    "parkingSpaces": "Places de stationnement",
+    "bookViewing": "Réserver une visite",
+    "call": "Appeler",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp"
+  },
+  "id": {
+    "welcome": "Gulf Estates vous accueille dans cette belle propriété située à"
+  }
+}

@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/navigation";
+
+
+:root {
+  --primary: #01366f;
+  --gold: #deb66a;
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-hero: "Baskervville", serif;
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Playfair Display", serif;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-gold: var(--gold);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-hero: var(--font-hero);
+  --font-primary: var(--font-primary);
+  --font-secondary: var(--font-secondary);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-primary);
+}
+
+.bg-gradient {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/gradient-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.underline-gradient {
+  @apply p-[1px] outline-none bg-gradient-to-r from-gold to-transparent;
+}
+
+/* Gold icon filter for contact buttons */
+.icon-gold {
+  filter: brightness(0) saturate(100%) invert(79%) sepia(45%) saturate(500%)
+    hue-rotate(5deg) brightness(0.95);
+}
+.mask-image {
+  -webkit-mask-image: linear-gradient(to left, transparent 0%, black 25%, black 100%);
+  mask-image: linear-gradient(to left, transparent 0%, black 25%, black 100%);
+}
+
+/* WhatsApp floating button bounce effect */
+@keyframes bounce-soft {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-bounce-soft {
+  animation: bounce-soft 2s ease-in-out infinite;
+}

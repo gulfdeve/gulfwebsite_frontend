@@ -1,0 +1,71 @@
+{
+  "notFound": "Property not found",
+
+  "breadcrumb": {
+    "home": "Home",
+    "separator": "›"
+  },
+
+  "description": {
+    "intro": "Gulf Estates welcomes you to this beautiful property located in",
+    "details": "This listing offers excellent value with spacious interiors, premium finishes, and a great community atmosphere."
+  },
+
+  "sections": {
+    "details": "Property Details",
+    "buildingInfo": "Building Information",
+    "location": "Location",
+     "description": "Description",
+      "amenities": "Amenities",
+         "similarProperties": "Similar Properties"
+    
+  },
+    "errors": {
+    "loadingSimilar": "Error loading similar properties"
+  },
+  
+  "amenities": {
+    "features": {
+      "wifi": "Wi-Fi",
+      "coveredParking": "Covered Parking",
+      "sharedPool": "Shared Pool",
+      "security": "24/7 Security",
+      "sharedGym": "Gym / Fitness Center",
+      "balcony": "Balcony",
+      "airConditioning": "Air Conditioning",
+      "nearMall": "Near Shopping Mall",
+      "publicTransport": "Public Transport Access",
+      "maidsRoom": "Maid’s Room",
+      "mosque": "Nearby Mosque",
+      "retailCenter": "Retail Center",
+      "garden": "Garden Area",
+      "restaurant": "Restaurant",
+      "cafe": "Café",
+      "television": "Television",
+      "heating": "Heating",
+      "beachWalkway": "Beach Access",
+      "swimmingPool": "Swimming Pool"
+    }},
+
+  "buildingInformation": {
+    "name": "Building Name",
+    "year": "Year of Completion",
+    "floors": "Total Floors",
+    "retail": "Retail Centres",
+    "pools": "Swimming Pools",
+    "parking": "Total Parking Spaces",
+    "area": "Total Building Area",
+    "elevators": "Elevators"
+  },
+
+  "agent": {
+    "call": "Call",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "brokerNo": "Broker No"
+  },
+  "dldDesc": "This property listing has been reviewed and verified by Dubai Land Department",
+  "buttons": {
+    "bookViewing": "Book a Viewing"
+  }
+}

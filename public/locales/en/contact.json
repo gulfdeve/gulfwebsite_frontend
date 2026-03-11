@@ -1,0 +1,68 @@
+{
+  "form": {
+    "title": "GET IN TOUCH WITH US",
+    "placeholders": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "message": "Message"
+    },
+    "button": "Send Message",
+    "successMessage": "Your message has been sent successfully!",
+    "errorMessage": "Something went wrong. Please try again later.",
+    "toast": {
+      "sending": "📤 Sending message...",
+      "success": "✅ Message sent successfully!",
+      "error": "❌ Failed to send message. Try again."
+    }
+  },
+
+  "infoSection": {
+    "title": "Get in touch",
+    "desc": "Find your perfect property in Dubai. Our expert team is ready to assist you with buying, renting, or investing in real estate.",
+    "call": "Call us",
+    "email": "Send email",
+    "phoneLabel": "+971 4 873 5835",
+    "emailLabel": "info@gulfestates.ae",
+    "addressTitle": "ADDRESS",
+    "addressValue": "Office 402, Galadari Bldg. 17 Dubai Production City (IMPZ) P.O. Box 74461, Dubai, U.A.E.",
+    "hoursTitle": "WORKING HOURS",
+    "hoursValue": "Monday - Saturday (09:00 AM - 06:00 PM GST)",
+    "followTitle": "FOLLOW US",
+    "socialLinks": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    },
+    "imageAlt": "Building"
+  },
+
+  "mapSection": {
+    "mapAlt": "Gulf Estates Location Map",
+    "headingLine1": "MAKE SMART INVESTMENTS",
+    "headingLine2": "WITH GULF ESTATES.",
+    "galleryAltPrefix": "Gallery image",
+    "mobileGalleryAltPrefix": "Mobile slide"
+  },
+  "popup": {
+    "title": "Submit an Enquiry",
+    "placeholders": {
+      "fullName": "Full name",
+      "phoneNumber": "Your number"
+    },
+    "selectBudget": "Select Budget",
+    "propertyType": "Property Type",
+    "keepUpdated": "Keep me updated on news and offers",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "errors": {
+      "fillRequired": "Please fill in all required fields",
+      "selectBudget": "Please select a budget",
+      "selectPropertyType": "Please select a property type",
+      "submitFailed": "Failed to submit enquiry. Please try again."
+    },
+    "success": "Enquiry submitted successfully!",
+    "consentText": "By submitting this form, you consent to receive tailored property recommendations and updates from our team. We value your privacy and will contact you only with information relevant to your stated preferences."
+  }
+}

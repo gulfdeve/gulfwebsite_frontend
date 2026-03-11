@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "Rechercher le nom du projet",
+  "findButton": "Trouver",
+  "propertyType": "Type de propriété",
+  "price": "Prix AED",
+  "offeringType": "Type d'offre",
+  "area": "Zone",
+  "handover": "Livraison",
+  "lifestyle": "Style de vie",
+  "min": "Min",
+  "max": "Max",
+  "minPrice": "Prix minimum",
+  "maxPrice": "Prix maximum"
+}

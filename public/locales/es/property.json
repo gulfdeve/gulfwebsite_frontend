@@ -1,0 +1,70 @@
+{
+  "notFound": "Propiedad no encontrada",
+
+  "breadcrumb": {
+    "home": "Inicio",
+    "separator": "›"
+  },
+
+  "description": {
+    "intro": "Gulf Estates le da la bienvenida a esta hermosa propiedad ubicada en",
+    "details": "Este listado ofrece un valor excelente con interiores espaciosos, acabados de primera calidad y un excelente ambiente comunitario."
+  },
+
+  "sections": {
+    "details": "Detalles de la propiedad",
+    "buildingInfo": "Información de construcción",
+    "location": "Ubicación",
+    "description": "Descripción",
+    "amenities": "Comodidades",
+    "similarProperties": "Propiedades similares"
+  },
+  "errors": {
+    "loadingSimilar": "Error al cargar propiedades similares"
+  },
+  "amenities": {
+    "features": {
+      "wifi": "Wi-Fi",
+      "coveredParking": "Estacionamiento cubierto",
+      "sharedPool": "Piscina compartida",
+      "security": "Seguridad 24/7",
+      "sharedGym": "Gimnasio / Centro de fitness",
+      "balcony": "Balcón",
+      "airConditioning": "Aire acondicionado",
+      "nearMall": "Cerca del centro comercial",
+      "publicTransport": "Acceso al transporte público",
+      "maidsRoom": "Habitación de servicio",
+      "mosque": "Mezquita cercana",
+      "retailCenter": "Centro comercial",
+      "garden": "Área de jardín",
+      "restaurant": "Restaurante",
+      "cafe": "Café",
+      "television": "Televisión",
+      "heating": "Calefacción",
+      "beachWalkway": "Acceso a la playa",
+      "swimmingPool": "Piscina"
+    }
+},
+
+  "buildingInformation": {
+    "name": "Nombre del edificio",
+    "year": "Año de finalización",
+    "floors": "Pisos totales",
+    "retail": "Centros minoristas",
+    "pools": "Piscinas",
+    "parking": "Total de espacios de estacionamiento",
+    "area": "Área total de construcción",
+    "elevators": "Ascensores"
+  },
+
+  "agent": {
+    "call": "LLAMAR",
+    "email": "CORREO",
+    "whatsapp": "WhatsApp",
+    "brokerNo": "Número de corredor"
+  },
+  "dldDesc": "Este anuncio de propiedad ha sido revisado y verificado por el Departamento de Tierras de Dubái",
+  "buttons": {
+    "bookViewing": "Reservar una visita"
+  }
+}

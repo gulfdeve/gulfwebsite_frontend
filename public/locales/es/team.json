@@ -1,0 +1,25 @@
+{
+  "title": "Nuestro equipo - Los expertos detrás de Gulf Estates",
+  "hero": {
+    "title": "Las personas detrás de nuestro éxito",
+    "subtitle": "Un equipo dedicado de profesionales inmobiliarios comprometidos a ayudarle a comprar, vender e invertir con confianza.",
+    "mediaSrc": "/images/team/team-bg.webp",
+    "mediaType": "image",
+    "height": "h-[450px]"
+  },
+  "header": {
+    "title": "Conoce a los Visionarios detrás de Gulf Estates",
+    "description": "Nuestro equipo es un grupo dinámico de profesionales experimentados, cada uno dedicado a ofrecer un servicio excepcional y una orientación experta. Con una pasión compartida por la excelencia, estamos comprometidos a ayudarte a navegar por el mercado inmobiliario de lujo de Dubái y convertir tus aspiraciones de propiedad en realidad."
+  },
+  "ceo": {
+    "name": "Alexandre Photiou",
+    "title": "Emprendedor Visionario y CEO",
+    "bio": "Un emprendedor dinámico y CEO, liderando Gulf Sea Real Estate LLC, una firma líder especializada en propiedades residenciales de lujo y oportunidades de inversión en los Emiratos Árabes Unidos. Con un sólido historial en bienes raíces de alto valor, ha construido una reputación por ofrecer propiedades excepcionales y oportunidades de inversión en ubicaciones privilegiadas. Más allá de los bienes raíces, su diversa cartera abarca múltiples industrias, incluyendo alquiler de yates de lujo, logística y gestión de eventos. Con una mentalidad estratégica y una pasión por la innovación, ha expandido con éxito negocios que atienden a individuos de alto patrimonio en los Emiratos Árabes Unidos. Su liderazgo se define por la excelencia, la eficiencia operativa y un enfoque centrado en el cliente, posicionándolo como un actor clave en la industria."
+  },
+  "departments": {
+    "sales-team": "Equipo de ventas",
+    "operations-team": "Equipo de Operaciones",
+    "marketing-and-media-creatives": "Creativos de marketing y medios",
+    "logistic": "Logística"
+  }
+}

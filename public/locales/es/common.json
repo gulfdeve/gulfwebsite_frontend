@@ -1,0 +1,83 @@
+{
+  "home": "Home",
+  "about": "SOBRE NOSOTROS",
+  "contact": "Contactenos",
+  "welcome": "Welcome to our website!",
+  "offplan": "En Construcción",
+  "buy": "Comprar",
+  "rent": "Alquilar",
+  "blogs": "Blogs",
+  "ourTeam": "Nuestro Equipo",
+  "loadMore": "CARGAR MÁS",
+  "loadingProperties": "Cargando propiedades...",
+  "showingProperties": "Mostrando",
+  "of": "de",
+  "properties": "propiedades",
+  "for": "para",
+  "noProperties": "No se encontraron propiedades que coincidan con tus criterios.",
+  "noPropertiesForPurpose": "No se encontraron propiedades de que coincidan con tus criterios.",
+
+  "footer": {
+    "subscribe_title": "OBTÉN LA INFORMACIÓN EXCLUSIVA.",
+    "subscribe_text": "Únete a nuestra lista de correo para recibir actualizaciones expertas sobre el mercado inmobiliario de los EAU cada semana.",
+    "email_placeholder": "Dirección de Correo Electrónico",
+    "quick_links": "ENLACES RÁPIDOS",
+    "about_us": "SOBRE NOSOTROS",
+    "popular_area": "ÁREAS POPULARES",
+    "social_channels": "CANALES SOCIALES",
+    "contact_us": "CONTÁCTANOS",
+    "privacy_policy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "copyright": "©2025 Gulf Sea Real Estate LLC, Todos los derechos reservados.",
+    "discover": "Descubre la propiedad de tus sueños con nuestra orientación experta y listados de propiedades completos.",
+    "links": {
+      "buy": "COMPRAR",
+      "rent": "ALQUILAR",
+      "blogs": "Blogs",
+      "off_plan": "En Construcción",
+      "about_us": "Sobre Nosotros",
+      "contact": "Contacto",
+      "properties": "Propiedades"
+    },
+    "about_links": {
+      "mission": "Misión",
+      "vision": "Visión",
+      "team": "Conoce al Equipo",
+      "careers": "Carreras",
+      "news": "Últimas noticias"
+    },
+    "alerts": {
+      "enter_email": "Por favor ingresa tu dirección de correo electrónico",
+      "success": "🎉 ¡Te has suscrito exitosamente a nuestro boletín!",
+      "failed": "Error al suscribirse. Por favor, inténtalo de nuevo.",
+      "error": "⚠️ Ocurrió un error. Por favor, inténtalo más tarde."
+    }
+  },
+  "sortFilter": {
+    "sortedBy": "ORDENADO POR",
+    "sortOptions": {
+      "mostRecent": "Más reciente",
+      "newestFirst": "Más nuevo primero",
+      "highestPrice": "Precio más alto",
+      "lowestPrice": "Precio más bajo",
+      "mostBedroom": "Más habitaciones",
+      "leastBedroom": "Menos habitaciones"
+    }
+  },
+  "notFound": {
+    "title": "Página No Encontrada",
+    "description": "¡Oops! La página que buscas no existe. Puede que haya sido movida o eliminada.",
+    "goToHome": "Ir al Inicio",
+    "goBack": "Regresar",
+    "orExplore": "O explora:"
+  },
+  "featuredCard": {
+    "forSale": "EN VENTA",
+    "paymentPlan": "Plan de pagos",
+    "developer": "Promotor",
+    "handover": "Entrega",
+    "call": "Llamar",
+    "email": "Correo",
+    "whatsapp": "WhatsApp"
+  }
+}

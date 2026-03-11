@@ -1,0 +1,49 @@
+{
+  "title": "Sobre nosotros",
+  "hero": {
+    "title": "Acerca de Gulf Estates - Expertos en Bienes Raíces de Lujo en Dubái",
+    "subTitle": "Nos comprometemos a brindar una experiencia excepcional tanto para clientes locales como internacionales.",
+    "mediaSrc": "/images/about/bg.webp",
+    "mediaType": "image",
+    "height": "h-[500px]"
+  },
+
+  "intro": {
+    "heading": "Bienvenido a Gulf Estates - Donde el Lujo se Encuentra con la Experiencia",
+    "paragraph1": "En Gulf Estates, no solo vendemos propiedades; construimos futuros. Como una entidad de prestigio dentro del Grupo Centaurus, líder mundial en sectores de lujo que abarcan desde yates hasta comercio electrónico, aportamos una experiencia inigualable al dinámico mercado inmobiliario de Dubái. Nuestro objetivo: conectar a clientes locales e internacionales con residencias de lujo que se ajusten perfectamente a sus aspiraciones, ya sea para una casa de ensueño, una inversión sólida o una residencia ventajosa. Viva una experiencia inmobiliaria marcada por el conocimiento, el servicio personalizado y el éxito sin esfuerzo."
+  },
+
+  "legacySection1": {
+    "title": "Nuestro Legado",
+    "paragraph": "Fundado en 2007, el Grupo Centaurus se erige como un referente de excelencia en diversos sectores del lujo. Desde la consolidación de la venta minorista de bebidas premium a través de Centaurus International hasta la creación de viajes a medida con Centaurus Charter, nuestra trayectoria se define por una calidad inquebrantable, la innovación y la dedicación al cliente. Como orgullosa extensión de este distinguido legado, Gulf Estates reinventa el panorama inmobiliario de Dubái, brindando a sus clientes un acceso inigualable a las propiedades y oportunidades más prestigiosas de la ciudad.",
+    "buttonText": "CONOCE AL EQUIPO",
+    "imageSrc": "/images/about/legacy1.webp",
+    "imageAlt": "Legacy"
+  },
+
+  "missionVision": {
+    "mission": {
+      "title": "Nuestra Misión",
+      "text": "Nuestra misión es clara: simplificar y elevar el viaje inmobiliario para compradores, vendedores e inversores por igual. Nos guía una filosofía centrada en el cliente, asegurando que cada transacción sea fluida, transparente y adaptada a tus necesidades específicas. Ya sea que estés invirtiendo en la propiedad de tus sueños o buscando inversiones de alto retorno, Gulf Estates está aquí para guiarte en cada paso del camino."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "text": "Imaginamos un futuro donde Gulf Estates sea sinónimo de vida refinada, inversión estratégica y experiencias excepcionales para los clientes. Como un puente entre las aspiraciones globales y las propiedades icónicas de Dubái, nos esforzamos por crear un camino sin interrupciones desde el deseo hasta la propiedad. A través de herramientas digitales de vanguardia, asociaciones duraderas y un compromiso inquebrantable con la excelencia, nuestro objetivo es dar forma al horizonte de Dubái, no solo con edificios, sino con confianza, legado y distinción."
+    },
+    "imageSrc": "/images/about/mission.webp",
+    "imageAlt": "Mission and Vision"
+  },
+  "dream": {
+    "title": "Tu sueño dubaití comienza aquí.",
+    "desc": "Tanto si compra su primera vivienda, como si es un inversor experimentado que busca ampliar su cartera o si desea residir a largo plazo, Gulf Estates es su guía de confianza. Nos especializamos en convertir sus aspiraciones en realidad, conectándole con la dirección perfecta en el dinámico mercado inmobiliario de lujo de Dubái.",
+    "btn1": "Equipo profesional",
+    "btn2": "Analista Financiero",
+    "btn3": "Mejor Precio Garantizado"
+  },
+  "statistics": {
+    "yearsOfExperience": "Años de Experiencia",
+    "satisfiedClients": "Clientes Satisfechos",
+    "certifiedAwards": "Premios Certificados",
+    "projectsDone": "Proyectos Realizados"
+  }
+}

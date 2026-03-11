@@ -1,0 +1,68 @@
+{
+  "form": {
+    "title": "PÓNGASE EN CONTACTO CON NOSOTROS",
+    "placeholders": {
+      "firstName": "Nombre de pila",
+      "lastName": "Apellido",
+      "email": "Dirección de correo electrónico",
+      "phone": "Número de teléfono",
+      "message": "Mensaje"
+    },
+    "button": "Enviar mensaje",
+    "successMessage": "¡Su mensaje ha sido enviado con éxito!",
+    "errorMessage": "Algo salió mal. Por favor, inténtelo de nuevo más tarde.",
+    "toast": {
+      "sending": "📤 Enviando mensaje...",
+      "success": "✅ ¡Mensaje enviado con éxito!",
+      "error": "❌ No se pudo enviar el mensaje. Inténtelo de nuevo."
+    }
+  },
+
+  "infoSection": {
+    "title": "Ponte en contacto",
+    "desc": "Encuentra la propiedad perfecta en Dubái. Nuestro equipo de expertos está listo para asistirte con compras, alquileres o inversiones inmobiliarias.",
+    "call": "Llámanos",
+    "email": "Enviar correo electrónico",
+    "phoneLabel": "+971 4 873 5835",
+    "emailLabel": "info@gulfestates.ae",
+    "addressTitle": "DIRECCIÓN",
+    "addressValue": "Oficina 402, Edificio Galadari 17, Dubai Production City (IMPZ) Apartado de correos 74461, Dubái, E.A.U.",
+    "hoursTitle": "HORARIO",
+    "hoursValue": "Lunes - Sábado (09:00 AM - 06:00 PM GST)",
+    "followTitle": "SÍGANOS",
+    "socialLinks": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    },
+    "imageAlt": "Edificio"
+  },
+
+  "mapSection": {
+    "mapAlt": "Mapa de ubicación de Gulf Estates",
+    "headingLine1": "HAGA INVERSIONES INTELIGENTES",
+    "headingLine2": "CON GULF ESTATES.",
+    "galleryAltPrefix": "Imagen de galería",
+    "mobileGalleryAltPrefix": "Diapositiva móvil"
+  },
+  "popup": {
+    "title": "Enviar una consulta",
+    "placeholders": {
+      "fullName": "Nombre completo",
+      "phoneNumber": "Su número"
+    },
+    "selectBudget": "Seleccionar presupuesto",
+    "propertyType": "Tipo de propiedad",
+    "keepUpdated": "Mantenerme informado sobre noticias y ofertas",
+    "submit": "Enviar",
+    "submitting": "Enviando...",
+    "errors": {
+      "fillRequired": "Por favor complete todos los campos obligatorios",
+      "selectBudget": "Por favor seleccione un presupuesto",
+      "selectPropertyType": "Por favor seleccione un tipo de propiedad",
+      "submitFailed": "Error al enviar la consulta. Por favor, inténtelo de nuevo."
+    },
+    "success": "¡Consulta enviada con éxito!",
+    "consentText": "Al enviar este formulario, consiente en recibir recomendaciones de propiedades personalizadas y actualizaciones de nuestro equipo. Valoramos su privacidad y solo nos pondremos en contacto con información relevante a sus preferencias declaradas."
+  }
+}

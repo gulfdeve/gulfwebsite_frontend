@@ -1,0 +1,73 @@
+{
+  "notFound": "Propriété introuvable",
+
+  "breadcrumb": {
+    "home": "Accueil",
+    "separator": "›"
+  },
+
+  "description": {
+    "intro": "Gulf Estates vous souhaite la bienvenue dans cette magnifique propriété située à",
+    "details": "Cette annonce offre un excellent rapport qualité-prix avec des intérieurs spacieux, des finitions haut de gamme et une atmosphère communautaire agréable."
+  },
+
+  "sections": {
+    "details": "Détails de la propriété",
+    "buildingInfo": "Informations sur le bâtiment",
+    "location": "Emplacement",
+     "description": "Description",
+     "amenities": "Équipements",
+     "similarProperties": "Propriétés similaires"
+  },
+  "errors": {
+    "loadingSimilar": "Erreur lors du chargement des propriétés similaires"
+  },
+
+  "buildingInformation": {
+    "name": "Nom du bâtiment",
+    "year": "Année d’achèvement",
+    "floors": "Nombre total d’étages",
+    "retail": "Centres commerciaux",
+    "pools": "Piscines",
+    "parking": "Nombre total de places de stationnement",
+    "area": "Surface totale du bâtiment",
+    "elevators": "Ascenseurs"
+  },
+
+  "agent": {
+    "call": "Appeler",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "brokerNo": "Numéro de courtier"
+  },
+
+  "dldDesc": "Cette annonce immobilière a été examinée et vérifiée par le Département des Terres de Dubaï.",
+
+  "buttons": {
+    "bookViewing": "Réserver une visite"
+  }, 
+
+  "amenities": {
+    "features": {
+      "wifi": "Wi-Fi",
+      "coveredParking": "Parking couvert",
+      "sharedPool": "Piscine partagée",
+      "security": "Sécurité 24h/24 et 7j/7",
+      "sharedGym": "Salle de sport / Fitness",
+      "balcony": "Balcon",
+      "airConditioning": "Climatisation",
+      "nearMall": "Près d’un centre commercial",
+      "publicTransport": "Accès aux transports publics",
+      "maidsRoom": "Chambre de domestique",
+      "mosque": "Mosquée à proximité",
+      "retailCenter": "Centre commercial",
+      "garden": "Jardin",
+      "restaurant": "Restaurant",
+      "cafe": "Café",
+      "television": "Télévision",
+      "heating": "Chauffage",
+      "beachWalkway": "Accès à la plage",
+      "swimmingPool": "Piscine"
+    }
+  }
+}

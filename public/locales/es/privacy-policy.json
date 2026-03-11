@@ -1,0 +1,104 @@
+{
+  "title": "Política de privacidad",
+  "nav": [
+    { "id": "introduction", "label": "Introducción" },
+    { "id": "data-collection", "label": "Recopilación de datos" },
+    { "id": "use-of-data", "label": "Uso de los datos" },
+    { "id": "cookies", "label": "Cookies" },
+    { "id": "third-party", "label": "Servicios de terceros" },
+    { "id": "rights", "label": "Sus derechos" },
+    { "id": "contact", "label": "Contáctenos" }
+  ],
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Introducción",
+      "content": [
+        "Bienvenido a Gulf Estate. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos su información cuando visita nuestra plataforma educativa y utiliza nuestros servicios.",
+        "Al acceder o utilizar nuestra plataforma, usted acepta la recopilación y el uso de la información de acuerdo con esta política. Estamos comprometidos a proteger su privacidad y a garantizar que su información personal se trate de forma responsable."
+      ]
+    },
+    {
+      "id": "data-collection",
+      "title": "Recopilación de datos",
+      "content": [
+        "Recopilamos la información que usted nos proporciona directamente, por ejemplo cuando:"
+      ],
+      "bullets": [
+        "Crea una cuenta o un perfil",
+        "Se inscribe en cursos o programas educativos",
+        "Envía tareas o participa en discusiones",
+        "Nos contacta para obtener soporte o realizar consultas",
+        "Se suscribe a nuestros boletines o actualizaciones"
+      ],
+      "footnote": "Los tipos de información que podemos recopilar incluyen su nombre, dirección de correo electrónico, formación académica, progreso en los cursos y cualquier otra información que elija proporcionar."
+    },
+    {
+      "id": "use-of-data",
+      "title": "Uso de los datos",
+      "content": ["Utilizamos la información que recopilamos para:"],
+      "bullets": [
+        "Proporcionar, mantener y mejorar nuestros servicios",
+        "Responder a sus comentarios, preguntas y solicitudes de soporte",
+        "Analizar los patrones de uso para mejorar la experiencia del usuario",
+        "Cumplir con las obligaciones legales y proteger nuestros derechos"
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Cookies",
+      "content": [
+        "Utilizamos cookies y tecnologías de seguimiento similares para mejorar su experiencia en nuestra plataforma. Las cookies nos ayudan a recordar sus preferencias y a ofrecer contenido personalizado.",
+        "Tipos de cookies que utilizamos:"
+      ],
+      "bullets": [
+        "Cookies esenciales: necesarias para el funcionamiento básico de la plataforma",
+        "Cookies de rendimiento: nos ayudan a entender cómo utiliza nuestra plataforma",
+        "Cookies de preferencia: recuerdan su configuración y preferencias",
+        "Cookies de marketing: se utilizan para ofrecer contenido educativo relevante"
+      ]
+    },
+    {
+      "id": "third-party",
+      "title": "Servicios de terceros",
+      "content": [
+        "Podemos utilizar servicios de terceros para mejorar nuestra plataforma educativa. Estos servicios tienen sus propias políticas de privacidad y pueden recopilar información sobre usted.",
+        "Servicios de terceros que utilizamos:"
+      ],
+      "bullets": [
+        "Servicios de analítica para comprender el uso de la plataforma",
+        "Procesadores de pago para las inscripciones en cursos",
+        "Servicios de correo electrónico para las comunicaciones",
+        "Proveedores de almacenamiento en la nube para la entrega de contenido",
+        "Plataformas de alojamiento de video para contenido educativo"
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "Sus derechos",
+      "content": ["Usted tiene varios derechos con respecto a su información personal:"],
+      "bullets": [
+        "Acceso: solicitar una copia de la información personal que tenemos sobre usted",
+        "Corrección: pedirnos que corrijamos cualquier información inexacta o incompleta",
+        "Eliminación: solicitar la eliminación de su información personal",
+        "Portabilidad: solicitar una copia de sus datos en un formato estructurado",
+        "Restricción: pedirnos que limitemos el uso que hacemos de su información",
+        "Oposición: oponerse a ciertos usos de su información personal"
+      ],
+      "footnote": "Para ejercer cualquiera de estos derechos, contáctenos utilizando la información proporcionada en la sección Contáctenos a continuación."
+    },
+    {
+      "id": "contact",
+      "title": "Contáctenos",
+      "content": [
+        "Si tiene alguna pregunta sobre esta Política de Privacidad o nuestras prácticas de privacidad, comuníquese con nosotros:",
+        "Correo electrónico: privacy@gulfestates.ae",
+        "Teléfono: 04 873 5835",
+        "Dirección: Oficina 402, Galadari Bldg. 17 Dubai Production City (IMPZ) P.O. Box 74461, Dubái, E.A.U.",
+        "Horario de atención: lunes a sábado (09:00 AM - 06:00 PM GST)",
+        "Responderemos a su consulta dentro de los 30 días posteriores a su recepción."
+      ]
+    }
+  ]
+}
+

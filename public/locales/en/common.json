@@ -1,0 +1,83 @@
+{
+  "home": "Home",
+  "about": "About Us",
+  "contact": "Contact Us",
+  "welcome": "Welcome to our website!",
+  "offplan": "Off Plan",
+  "buy": "Buy",
+  "rent": "Rent",
+  "blogs": "Blogs",
+  "ourTeam": "Our Team",
+  "loadMore": "LOAD MORE",
+  "loadingProperties": "Loading properties...",
+  "showingProperties": "Showing",
+  "of": "of",
+  "properties": "properties",
+  "for": "for",
+  "noProperties": "No properties found matching your criteria.",
+  "noPropertiesForPurpose": "No properties found matching your criteria.",
+
+  "footer": {
+    "subscribe_title": "GET THE INSIDE SCOOP.",
+    "subscribe_text": "Join our mailing list for expert updates on UAE real estate every week.",
+    "email_placeholder": "Email Address",
+    "quick_links": "QUICK LINKS",
+    "about_us": "ABOUT US",
+    "popular_area": "POPULAR AREA",
+    "social_channels": "SOCIAL CHANNELS",
+    "contact_us": "CONTACT US",
+    "privacy_policy": "Privacy Policy",
+    "terms": "Terms and Conditions",
+    "copyright": "©2025 Gulf Sea Real Estate LLC, All rights reserved.",
+    "discover": "Discover your dream property with our expert guidance and comprehensive property listings.",
+    "links": {
+      "buy": "BUY",
+      "rent": "Rent",
+      "blogs": "Blogs",
+      "off_plan": "Off Plan",
+      "about_us": "About Us",
+      "contact": "Contact",
+      "properties": "Properties"
+    },
+    "about_links": {
+      "mission": "Mission",
+      "vision": "Vision",
+      "team": "Meet The Team",
+      "careers": "Careers",
+      "news": "Latest News"
+    },
+    "alerts": {
+      "enter_email": "Please enter your email address",
+      "success": "🎉 Successfully subscribed to our newsletter!",
+      "failed": "Failed to subscribe. Please try again.",
+      "error": "⚠️ An error occurred. Please try again later."
+    }
+  },
+  "sortFilter": {
+    "sortedBy": "SORTED BY",
+    "sortOptions": {
+      "mostRecent": "MOST RECENT",
+      "newestFirst": "NEWEST FIRST",
+      "highestPrice": "HIGHEST PRICE",
+      "lowestPrice": "LOWEST PRICE",
+      "mostBedroom": "MOST BEDROOM",
+      "leastBedroom": "LEAST BEDROOM"
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Oops! The page you're looking for doesn't exist. It might have been moved or deleted.",
+    "goToHome": "Go to Home",
+    "goBack": "Go Back",
+    "orExplore": "Or explore:"
+  },
+  "featuredCard": {
+    "forSale": "FOR SALE",
+    "paymentPlan": "Payment Plan",
+    "developer": "Developer",
+    "handover": "Handover",
+    "call": "Call",
+    "email": "Email",
+    "whatsapp": "WhatsApp"
+  }
+}

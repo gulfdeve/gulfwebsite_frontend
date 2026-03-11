@@ -1,0 +1,69 @@
+{
+    "hero": {
+        "label": "Careers at Gulf Estates | Join Our Real Estate Team in UAE",
+        "title": "Build the Future of Property in the Gulf Region.",
+        "desc": "Join Gulf Estate, a dynamic leader shaping the landscape of luxury and commercial property across the GCC. We offer unparalleled growth opportunities in a high-impact, technologically advanced environment."
+    },
+    "be-part": {
+        "title": "Be Part of our Mission",
+        "desc": "We are looking for passionate individuals to join our mission. We value clear communication, and full ownership and responsibility."
+    },
+    "jobs": {
+        "propertyAdvisor": {
+            "title": "Property Advisor",
+            "desc": "We are looking for a mid-level property Adviser to join our team."
+        },
+        "seniorPropertyAdvisor": {
+            "title": "Senior Property Advisor",
+            "desc": "We are looking for a mid-level property Adviser to join our team."
+        },
+        "tags": {
+            "onSite": "On-site",
+            "fullTime": "Full Time",
+            "open": "Open"
+        }
+    },
+    "contact": {
+        "contact-us": "Contact us at",
+        "email-us": "Or Email us at",
+        "emailAddress": "admin@gulfestates.ae"
+    },
+    "sections": {
+        "blogs": {
+            "title": "Discover our latest articles",
+            "button": "Discover our Blogs Page"
+        },
+        "properties": {
+            "title": "Explore our hot selling properties",
+            "button": "Discover our Off Plan Properties"
+        }
+    },
+    "application": {
+        "title": "Upload Resume & Portfolio",
+        "description": "Apply for this job in a few clicks. Recruiter needs your updated resume and proof of work.",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "coverLetter": "Cover Letter",
+        "coverLetterPlaceholder": "Write your cover letter here...",
+        "resume": "Resume",
+        "portfolio": "Portfolio",
+        "optional": "Optional",
+        "dragDrop": "Drag & Drop or",
+        "chooseFile": "Choose file",
+        "fileFormat": "PDF or DOCX Max 3.0MB",
+        "fileSelected": "Selected:",
+        "submit": "SUBMIT",
+        "submitting": "Submitting...",
+        "success": "Application submitted successfully!",
+        "errors": {
+            "requiredFields": "All fields are required",
+            "resumeRequired": "Resume is required",
+            "pdfOnly": "Only PDF files are allowed",
+            "pdfDocxOnly": "Only PDF and DOCX files are allowed",
+            "executableBlocked": "Executable and script files are not allowed. Please upload PDF or DOCX only.",
+            "fileSize": "File size must be less than 3MB",
+            "submit": "Failed to submit application"
+        }
+    }
+}

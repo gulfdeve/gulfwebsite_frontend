@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "title": "Casas preparadas para el futuro a precios actuales",
+    "subTitle": "Explora los próximos desarrollos y oportunidades",
+    "mediaType": "image",
+    "mediaSrc": "/images/off-plans/bg.jpg",
+    "height": "h-screen"
+  },
+  "pageHeading": {
+    "bannerTitle": "Propiedades en construcción en venta en EAU",
+    "sectionHighlight": "Explora apartamentos y villas premium en construcción",
+    "sectionTitle": "Apartamentos & Villas"
+  },
+  "offPlanList": {
+    "error": "Ocurrió un error al cargar las propiedades.",
+    "retry": "Intentar de nuevo",
+    "noProperties": "No se encontraron propiedades",
+    "tryDifferentFilters": "Intenta ajustar tus filtros de búsqueda",
+    "developer": "Promotor",
+    "type": "Tipo",
+    "handoverDate": "Entrega",
+    "priceFrom": "Precio desde",
+    "paymentPlan": "Plan de pago",
+    "call": "Llamar",
+    "email": "Correo electrónico",
+    "whatsapp": "WhatsApp",
+    "errorTitle": "¡Vaya! Algo salió mal",
+    "errorMessage": "No pudimos cargar la página o la lista de propiedades que buscabas. Es posible que haya sido movida o eliminada.",
+    "goHome": "Volver al inicio"
+  },
+  "id": {
+    "home": "Inicio",
+    "offPlan": "Proyecto en Planos",
+    "registerInterest": "Registrar interés",
+    "startingPrice": "Precio inicial",
+    "paymentPlan": "Plan de pago",
+    "developer": "Promotor",
+    "handoverDate": "Fecha de entrega",
+    "floorPlan": "Plano de planta",
+    "available": "Disponible",
+    "propertyDetails": "Detalles de la propiedad",
+    "propertyType": "Tipo de Propiedad",
+    "bathrooms": "Baños",
+    "propertySize": "Tamaño de la Propiedad",
+    "serviceCharges": "Cargos de Servicio",
+    "bedrooms": "Dormitorios",
+    "location": "Ubicación",
+    "similarOffPlans": "Proyectos similares en planos",
+    "locationUnknown": "Ubicación desconocida",
+    "priceOnRequest": "Precio bajo consulta",
+    "fetchError": "Error al cargar los proyectos",
+    "propertyNotFound": "La propiedad puede no haberse encontrado o ha ocurrido un error. Por favor, actualiza la página.",
+    "refreshPage": "Actualizar página",
+    "downloadBrochure": "DESCARGAR FOLLETO",
+    "downloadAllFloorPlans": "DESCARGAR TODOS LOS PLANOS",
+    "bookViewing": "Reservar visita",
+    "nearbyLandmarks": "Lugares cercanos",
+    "dldNumber": "Número de permiso DLD",
+    "dldDesc": "Este listado de propiedad ha sido revisado y verificado por el Departamento de Tierras de Dubái",
+    "call": "LLAMAR",
+    "email": "CORREO",
+    "whatsapp": "WhatsApp",
+    "share": "Compartir",
+    "knowMore": "¿Quieres saber más?"
+  },
+  "similar": {
+    "title": "Explora Más Inversiones de Lujo En Planos"
+  },
+  "sort": {
+    "sortBy": "Ordenar por",
+    "default": "Predeterminado",
+    "newest": "Más reciente",
+    "oldest": "Más antiguo",
+    "lowestPrice": "Precio más bajo",
+    "highestPrice": "Precio más alto"
+  },
+  "sections": {
+    "nearbyLandmarks": "Lugares cercanos",
+    "gallery": "Galería"
+  },
+  "landmarks": {
+    "school": "Escuela",
+    "supermarket": "Supermercado",
+    "mall": "Centro comercial",
+    "park": "Parque"
+  },
+  "timeUnknown": "N/A",
+  "common": {
+    "property": "Propiedad",
+    "locationNotSpecified": "Ubicación no especificada",
+    "unknown": "Desconocido",
+    "sqFt": "pies cuadrados",
+    "mainImage": "Imagen principal",
+    "propertyImage": "Imagen de la propiedad",
+    "nearbyLandmark": "Punto de referencia cercano",
+    "previousSlide": "Diapositiva anterior",
+    "nextSlide": "Diapositiva siguiente",
+    "removeFilter": "Quitar filtro",
+    "notAvailable": "N/D"
+  }
+}

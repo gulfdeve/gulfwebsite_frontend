@@ -1,0 +1,68 @@
+{
+  "form": {
+    "title": "PRENEZ CONTACT AVEC NOUS",
+    "placeholders": {
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "message": "Message"
+    },
+    "button": "Envoyer le message",
+    "successMessage": "Votre message a été envoyé avec succès !",
+    "errorMessage": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+    "toast": {
+      "sending": "📤 Envoi du message...",
+      "success": "✅ Message envoyé avec succès !",
+      "error": "❌ Échec de l’envoi du message. Réessayez."
+    }
+  },
+
+  "infoSection": {
+    "title": "Entrer en contact",
+    "desc": "Trouvez la propriété parfaite à Dubaï. Notre équipe d'experts est prête à vous assister pour acheter, louer ou investir dans l'immobilier.",
+    "call": "Appelez-nous",
+    "email": "Envoyer un e-mail",
+    "phoneLabel": "+971 4 873 5835",
+    "emailLabel": "info@gulfestates.ae",
+    "addressTitle": "ADRESSE",
+    "addressValue": "Bureau 402, Bâtiment Galadari 17, Dubai Production City (IMPZ) Boîte postale 74461, Dubaï, É.A.U.",
+    "hoursTitle": "HEURES D'OUVERTURE",
+    "hoursValue": "Lundi - Samedi (09:00 AM - 06:00 PM GST)",
+    "followTitle": "SUIVEZ-NOUS",
+    "socialLinks": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    },
+    "imageAlt": "Bâtiment"
+  },
+
+  "mapSection": {
+    "mapAlt": "Carte de localisation de Gulf Estates",
+    "headingLine1": "FAITES DES INVESTISSEMENTS ÉCLAIRÉS",
+    "headingLine2": "AVEC GULF ESTATES.",
+    "galleryAltPrefix": "Image de la galerie",
+    "mobileGalleryAltPrefix": "Diapositive mobile"
+  },
+  "popup": {
+    "title": "Soumettre une demande",
+    "placeholders": {
+      "fullName": "Nom complet",
+      "phoneNumber": "Votre numéro"
+    },
+    "selectBudget": "Sélectionner un budget",
+    "propertyType": "Type de propriété",
+    "keepUpdated": "Tenez-moi informé des actualités et des offres",
+    "submit": "Soumettre",
+    "submitting": "Envoi en cours...",
+    "errors": {
+      "fillRequired": "Veuillez remplir tous les champs obligatoires",
+      "selectBudget": "Veuillez sélectionner un budget",
+      "selectPropertyType": "Veuillez sélectionner un type de propriété",
+      "submitFailed": "Échec de l'envoi de la demande. Veuillez réessayer."
+    },
+    "success": "Demande envoyée avec succès !",
+    "consentText": "En soumettant ce formulaire, vous consentez à recevoir des recommandations immobilières personnalisées et des mises à jour de notre équipe. Nous valorisons votre vie privée et ne vous contacterons qu'avec des informations pertinentes à vos préférences déclarées."
+  }
+}

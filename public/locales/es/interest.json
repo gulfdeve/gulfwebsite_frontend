@@ -1,0 +1,15 @@
+{
+  "section": {
+    "title": "Registra tu interés",
+    "description": "Sé el primero en conocer el lanzamiento exclusivo de {{projectName}}. Registra tu interés ahora y te mantendremos actualizado con los últimos desarrollos y acceso prioritario."
+  },
+  "form": {
+    "namePlaceholder": "Nombre completo",
+    "emailPlaceholder": "Correo electrónico",
+    "phonePlaceholder": "Número de teléfono",
+    "submitButton": "Enviar",
+    "submitting": "Enviando...",
+    "successMessage": "¡Gracias! Hemos recibido tu interés y nos pondremos en contacto contigo pronto.",
+    "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo."
+  }
+}
