@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - /bin/bash -c "source /home/putdfhal/nodevenv/gulf-estates/gulf-frontend/24/bin/activate && cd /home/putdfhal/gulf-estates/gulf-frontend && git pull origin main && pnpm install --frozen-lockfile && pnpm run build && mkdir -p tmp && touch tmp/restart.txt"
+    - /bin/bash -c "cd /home/putdfhal/gulf-estates/gulf-frontend && nohup bash -c 'source /home/putdfhal/nodevenv/gulf-estates/gulf-frontend/24/bin/activate && pnpm install && pnpm run build && mkdir -p tmp && touch tmp/restart.txt && echo DEPLOY_DONE' > /tmp/gulf_deploy.log 2>&1 &"
