@@ -61,7 +61,28 @@ const nextConfig = {
   },
 
   // Transpile Swiper for ESM compatibility
+  // Note: @heygen/liveavatar-web-sdk is forced to its CJS build via webpack alias below
   transpilePackages: ['swiper'],
+
+  // Force the UMD build of the LiveAvatar SDK for browser compatibility.
+  // The package has "type":"module" so webpack would otherwise treat index.cjs.js as ESM
+  // and leave require() calls unpolyfilled. The UMD build has livekit-client bundled
+  // inside and only needs the `events` Node polyfill (which webpack provides automatically).
+  webpack: (config) => {
+    const umdPath =
+      process.cwd() + '/node_modules/@heygen/liveavatar-web-sdk/dist/index.umd.js';
+
+    config.resolve.alias['@heygen/liveavatar-web-sdk'] = umdPath;
+
+    // "type":"module" in the SDK's package.json would make webpack treat this file as ESM.
+    // javascript/auto reverts to webpack's auto-detection (CJS wins because of require() calls).
+    config.module.rules.push({
+      test: /node_modules[\\/]@heygen[\\/]liveavatar-web-sdk[\\/]dist[\\/]index\.umd\.js$/,
+      type: 'javascript/auto',
+    });
+
+    return config;
+  },
 
   // Security Headers: Content Security Policy and other security headers
   async headers() {
@@ -78,7 +99,7 @@ const nextConfig = {
               "img-src 'self' data: https: blob: https://res.cloudinary.com https://hatscripts.github.io https://images.unsplash.com https://picsum.photos https://flagcdn.com https://www.facebook.com",
               "media-src 'self' blob: data: https://res.cloudinary.com https://gulfestates.ae https://www.gulfestates.ae",
               "font-src 'self' https://fonts.gstatic.com data:",
-              "connect-src 'self' http://localhost:5000 https://backend.gulf.smbdigitalzone.com https://backend.gulfestates.ae https://www.google-analytics.com https://www.googletagmanager.com https://static.cloudflareinsights.com https://www.facebook.com https://connect.facebook.net",
+              "connect-src 'self' http://localhost:5000 https://backend.gulf.smbdigitalzone.com https://backend.gulfestates.ae https://www.google-analytics.com https://www.googletagmanager.com https://static.cloudflareinsights.com https://www.facebook.com https://connect.facebook.net https://api.liveavatar.com wss://*.liveavatar.com wss://*.livekit.cloud https://*.livekit.cloud",
               "frame-src 'self' https://www.google.com https://maps.google.com https://www.googletagmanager.com",
               "object-src 'none'",
               "base-uri 'self'",
@@ -101,7 +122,7 @@ const nextConfig = {
           },
           {
             key: 'Permissions-Policy',
-            value: 'camera=(), microphone=(), geolocation=()'
+            value: 'camera=(), microphone=(self), geolocation=()'
           }
         ]
       }

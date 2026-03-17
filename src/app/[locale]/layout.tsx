@@ -6,6 +6,7 @@ import { headers } from "next/headers";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
+import LiveAvatarChatButton from "@/components/layout/LiveAvatarChatButton";
 import ClientI18nProvider from "@/components/common/ClientI18nProvider";
 import { getMetadata } from "@/lib/metadata";
 import { Toaster } from "sonner";
@@ -50,6 +51,7 @@ export default async function LocaleLayout({
           {children}
           <Footer locale={locale.toLowerCase()} />
           <WhatsAppButton />
+          <LiveAvatarChatButton locale={locale.toLowerCase()} />
           <Toaster
             position="top-right"
             richColors
