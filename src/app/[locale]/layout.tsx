@@ -51,7 +51,9 @@ export default async function LocaleLayout({
           {children}
           <Footer locale={locale.toLowerCase()} />
           <WhatsAppButton />
-          <LiveAvatarChatButton locale={locale.toLowerCase()} />
+          {process.env.NEXT_PUBLIC_LIVEAVATAR_ENABLED === "true" && (
+            <LiveAvatarChatButton locale={locale.toLowerCase()} />
+          )}
           <Toaster
             position="top-right"
             richColors
