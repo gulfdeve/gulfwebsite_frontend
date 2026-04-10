@@ -141,6 +141,17 @@ export const siteMetadata: Record<string, PageMetadata> = {
     ogImage: "/images/banner-image.webp",
     twitterImage: "/images/banner-image.webp",
   },
+
+  // Global investment landing page
+  "/global-investment": {
+    title:
+      "Global Property Investment In Dubai, London & New York | Gulf Estates",
+    description:
+      "Explore high-potential property investment opportunities across Dubai, London, and New York. Submit your enquiry and receive curated options from Gulf Estates.",
+    canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/global-investment`,
+    ogImage: "/images/banner-image.webp",
+    twitterImage: "/images/banner-image.webp",
+  },
 };
 
 /**
