@@ -99,7 +99,7 @@ const nextConfig = {
               "img-src 'self' data: https: blob: https://res.cloudinary.com https://hatscripts.github.io https://images.unsplash.com https://picsum.photos https://flagcdn.com https://www.facebook.com",
               "media-src 'self' blob: data: https://res.cloudinary.com https://gulfestates.ae https://www.gulfestates.ae",
               "font-src 'self' https://fonts.gstatic.com data:",
-              "connect-src 'self' http://localhost:5000 https://backend.gulf.smbdigitalzone.com https://backend.gulfestates.ae https://www.google-analytics.com https://www.googletagmanager.com https://static.cloudflareinsights.com https://www.facebook.com https://connect.facebook.net https://api.liveavatar.com wss://*.liveavatar.com wss://*.livekit.cloud https://*.livekit.cloud",
+              "connect-src 'self' http://localhost:5000 http://localhost:5050 https://backend.gulf.smbdigitalzone.com https://backend.gulfestates.ae https://www.google-analytics.com https://www.googletagmanager.com https://static.cloudflareinsights.com https://www.facebook.com https://connect.facebook.net https://api.liveavatar.com wss://*.liveavatar.com wss://*.livekit.cloud https://*.livekit.cloud",
               "frame-src 'self' https://www.google.com https://maps.google.com https://www.googletagmanager.com",
               "object-src 'none'",
               "base-uri 'self'",

@@ -16,6 +16,7 @@ interface FormData {
   budget: string;
   propertyType: string;
   consent: boolean;
+  source: string;
 }
 
 interface FormErrors {
@@ -50,6 +51,7 @@ const INITIAL_FORM: FormData = {
   budget: "",
   propertyType: "",
   consent: false,
+  source: "Global Investment",
 };
 
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -59,11 +61,6 @@ const sanitizeName = (value: string): string =>
 
 const sanitizePhone = (value: string): string =>
   value.replace(/[^\d\s()-]/g, "").substring(0, 20);
-
-const getInternationalNumber = (countryCode: string, phoneNumber: string): string => {
-  const digits = phoneNumber.replace(/\D/g, "");
-  return `${countryCode}${digits}`;
-};
 
 export default function InvestmentEnquiryForm({ locale }: InvestmentEnquiryFormProps) {
   const [formData, setFormData] = useState<FormData>(INITIAL_FORM);
@@ -168,12 +165,13 @@ export default function InvestmentEnquiryForm({ locale }: InvestmentEnquiryFormP
         body: JSON.stringify({
           fullName: formData.fullName.trim(),
           email: formData.email.trim().toLowerCase(),
-          phoneNumber: getInternationalNumber(formData.countryCode, formData.phoneNumber),
+          phoneNumber: formData.phoneNumber.replace(/\D/g, ""),
           country: formData.country,
           countryCode: formData.countryCode,
           budget: formData.budget,
           propertyType: formData.propertyType,
           consent: formData.consent,
+          source: formData.source,
         }),
       });
 

@@ -22,6 +22,11 @@ const DldPermitCard: React.FC<DldPermitCardProps> = ({
   const hasQrImage = qrImage && !imageError;
   const hasPermitNumber = permitNumber && permitNumber.trim() !== "";
 
+  // Don't render if neither permit number nor QR image is provided
+  if (!hasPermitNumber && !hasQrImage) {
+    return null;
+  }
+
   return (
     <div
       className={`max-w-[400px] md:w-[400px] lg:w-[300px] mx-auto bg-white rounded-lg overflow-hidden p-4 shadow-[rgba(0,0,0,0.25)_-5px_4px_7.5px_4px] ${className}`}
@@ -49,7 +54,7 @@ const DldPermitCard: React.FC<DldPermitCardProps> = ({
         ) : (
           <div className="flex items-center justify-center w-full h-36 bg-gray-100 rounded-lg border-2 border-dashed border-gray-300">
             <p className="text-gray-500 text-sm text-center px-4">
-              {t("id.noDldQr","DLD QR not provided")}
+              {t("id.noDldQr", "DLD QR not provided")}
             </p>
           </div>
         )}
