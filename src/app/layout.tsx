@@ -94,6 +94,7 @@ export default async function RootLayout({
   const googleTagManagerId = sanitizeGTMId(rawGTMId);
   const isGTMEnabled = googleTagManagerId && isValidGTMId(googleTagManagerId);
   const metaPixelId = "397766946281365";
+  const googleAnalyticsId = "G-FC93PQMZ1G";
 
   // Get pathname and locale from headers for JSON-LD schema
   const headersList = await headers();
@@ -111,6 +112,23 @@ export default async function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <head>
+        {/* Google tag (gtag.js) */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${googleAnalyticsId}');
+            `,
+          }}
+        />
         {/* Preload LCP image (logo) for faster initial render */}
         <link rel="preload" href="/images/logo.png" as="image" />
         {/* JSON-LD Schema */}
