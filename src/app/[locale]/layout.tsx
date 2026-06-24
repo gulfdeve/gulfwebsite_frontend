@@ -28,6 +28,10 @@ export default async function LocaleLayout({
 }) {
   const { locale: localeParam } = await params;
   const normalizedLocale = localeParam?.toLowerCase() || "en";
+
+  const headersList = await headers();
+  const pathname = headersList.get("x-current-path") || "";
+  const isStandaloneLanding = pathname.includes("/damac-open-house");
   
   // If locale is not valid, redirect to not-found
   let locale: string;
@@ -47,11 +51,12 @@ export default async function LocaleLayout({
       >
         {/* ✅ Wrap with a client provider to sync language */}
         <ClientI18nProvider locale={locale.toLowerCase()}>
-          <Navbar locale={locale.toLowerCase()} />
+          {!isStandaloneLanding && <Navbar locale={locale.toLowerCase()} />}
           {children}
-          <Footer locale={locale.toLowerCase()} />
-          <WhatsAppButton />
-          {process.env.NEXT_PUBLIC_LIVEAVATAR_ENABLED === "true" && (
+          {!isStandaloneLanding && <Footer locale={locale.toLowerCase()} />}
+          {!isStandaloneLanding && <WhatsAppButton />}
+          {!isStandaloneLanding &&
+            process.env.NEXT_PUBLIC_LIVEAVATAR_ENABLED === "true" && (
             <LiveAvatarChatButton locale={locale.toLowerCase()} />
           )}
           <Toaster

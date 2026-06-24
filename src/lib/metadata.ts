@@ -142,6 +142,16 @@ export const siteMetadata: Record<string, PageMetadata> = {
     twitterImage: "/images/banner-image.webp",
   },
 
+  // DAMAC Open House invitation landing page
+  "/damac-open-house": {
+    title: "Gulf Estates — DAMAC Open House | 4 July 2026, Dubai",
+    description:
+      "You are invited to an exclusive Open House at DAMAC Hills on Saturday, 4 July 2026. Explore DAMAC Islands and Dubai's finest luxury communities with Gulf Estates.",
+    canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/damac-open-house`,
+    ogImage: "/images/banner-image.webp",
+    twitterImage: "/images/banner-image.webp",
+  },
+
   // Global investment landing page
   "/global-investment": {
     title:

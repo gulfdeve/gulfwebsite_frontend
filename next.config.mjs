@@ -100,7 +100,7 @@ const nextConfig = {
               "media-src 'self' blob: data: https://res.cloudinary.com https://gulfestates.ae https://www.gulfestates.ae",
               "font-src 'self' https://fonts.gstatic.com data:",
               "connect-src 'self' http://localhost:5000 http://localhost:5050 https://backend.gulf.smbdigitalzone.com https://backend.gulfestates.ae https://www.google-analytics.com https://www.googletagmanager.com https://static.cloudflareinsights.com https://www.facebook.com https://connect.facebook.net https://api.liveavatar.com wss://*.liveavatar.com wss://*.livekit.cloud https://*.livekit.cloud",
-              "frame-src 'self' https://www.google.com https://maps.google.com https://www.googletagmanager.com",
+              "frame-src 'self' https://www.google.com https://maps.google.com https://www.googletagmanager.com https://gulfestates.bitrix24.site https://*.bitrix24.site",
               "object-src 'none'",
               "base-uri 'self'",
               "form-action 'self' tel: mailto:",
