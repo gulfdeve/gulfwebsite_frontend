@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://gulfestates.ae';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.gulfestates.ae';
 
 export async function GET() {
   // Generate sitemap index XML

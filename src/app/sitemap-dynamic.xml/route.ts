@@ -31,10 +31,23 @@ function getChangefreqAndPriority(loc: string): { changefreq: string; priority: 
   return { changefreq: 'weekly', priority: '0.8' };
 }
 
+function withWww(loc: string): string {
+  try {
+    const url = new URL(loc);
+    if (url.hostname === 'gulfestates.ae') {
+      url.hostname = 'www.gulfestates.ae';
+    }
+    return url.toString();
+  } catch {
+    return loc;
+  }
+}
+
 function entryToXml(entry: SitemapEntry): string {
-  const { changefreq, priority } = getChangefreqAndPriority(entry.loc);
+  const loc = withWww(entry.loc);
+  const { changefreq, priority } = getChangefreqAndPriority(loc);
   return `  <url>
-    <loc>${escapeXml(entry.loc)}</loc>
+    <loc>${escapeXml(loc)}</loc>
     <lastmod>${escapeXml(entry.lastmod)}</lastmod>
     <changefreq>${escapeXml(changefreq)}</changefreq>
     <priority>${escapeXml(priority)}</priority>
