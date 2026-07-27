@@ -131,6 +131,8 @@ export default function BlogsClient({
         .filter((b) => b._id !== featuredBlog?._id)
         .slice(0, 6);
 
+    const otherArticles = blogs.filter((b) => b._id !== featuredBlog?._id);
+
     const start = (currentPage - 1) * blogsPerPage;
     const end = start + blogsPerPage;
     const paginatedFiltered = filteredBlogs.slice(start, end);
@@ -377,7 +379,7 @@ export default function BlogsClient({
                             }}
                             grabCursor={true}
                         >
-                            {blogs.map((blog) => (
+                            {otherArticles.map((blog) => (
                                 <SwiperSlide key={blog._id}>
                                     <div className="h-full">
                                         <BlogCard
@@ -395,7 +397,7 @@ export default function BlogsClient({
 
                     {/* TABLET & DESKTOP GRID */}
                     <div className="hidden lg:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mt-6">
-                        {blogs.map((blog) => (
+                        {otherArticles.map((blog) => (
                             <div key={blog._id} className="h-full rounded-sm">
                                 <BlogCard
                                     title={getLocalizedTitle(blog)}
