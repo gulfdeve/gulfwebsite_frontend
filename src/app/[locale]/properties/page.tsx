@@ -319,7 +319,9 @@ function PropertiesPageContent() {
 
       if (filters.title) apiFilters.title = filters.title;
 
-      // Backend does not filter properties by handover or lifestyle (those are off-plan); omit them
+      if (filters.lifestyle) apiFilters.lifestyle = filters.lifestyle;
+
+      // Backend does not filter properties by handover (handoverDate is off-plan only); omit it
 
       Object.entries(apiFilters).forEach(([key, value]) => {
         if (
