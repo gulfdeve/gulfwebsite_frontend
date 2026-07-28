@@ -66,7 +66,7 @@ export async function generateMetadata({
     };
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://gulfestates.ae";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://www.gulfestates.ae";
 
   const getLocalizedText = (
     field: string | { en?: string; fr?: string; es?: string } | undefined,

@@ -26,7 +26,7 @@ const playfair = Playfair_Display({
 });
 
 export async function generateMetadata(): Promise<Metadata> {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://gulfestates.ae";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://www.gulfestates.ae";
 
   return {
     metadataBase: new URL(baseUrl),

@@ -69,7 +69,7 @@ export async function generateMetadata({
   const seoTitle = blog.seo?.title || baseTitle;
   const seoDescription = blog.seo?.description || blog.excerpt || baseTitle;
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://gulfestates.ae";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://www.gulfestates.ae";
   const canonicalUrl = `${baseUrl}/${locale}/blogs/${slug}`;
   const imageUrl =
     blog?.image && blog?.image?.startsWith("http")

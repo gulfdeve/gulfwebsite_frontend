@@ -91,15 +91,15 @@ export async function generateMetadata({
 
   const metadata = getMetadata(pathname);
   const fullImageUrl = `${
-    process.env.NEXT_PUBLIC_BASE_URL || "https://gulfestates.ae"
+    process.env.NEXT_PUBLIC_BASE_URL || "https://www.gulfestates.ae"
   }${metadata?.ogImage}`;
 
   const fullTwitterImageUrl = `${
-    process.env.NEXT_PUBLIC_BASE_URL || "https://gulfestates.ae"
+    process.env.NEXT_PUBLIC_BASE_URL || "https://www.gulfestates.ae"
   }${metadata?.twitterImage}`;
 
   // Construct canonical URL - use metadata canonical or current pathname
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://gulfestates.ae";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://www.gulfestates.ae";
   const cleanPathname = pathname.replace(/\/$/, "") || `/${locale}`;
 
   // Determine canonical URL

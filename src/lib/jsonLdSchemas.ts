@@ -1,4 +1,4 @@
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://gulfestates.ae";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://www.gulfestates.ae";
 
 function cleanPath(pathname: string): string {
   let cleanPath = pathname?.replace(/\/$/, "") || "/";
