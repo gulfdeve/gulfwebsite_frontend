@@ -23,6 +23,6 @@ export default function robots(): MetadataRoute.Robots {
         ],
       },
     ],
-    sitemap: "https://www.gulfestates.ae/sitemap.xml",
+    sitemap: "https://www.gulfestates.ae/sitemap-index.xml",
   };
 }
