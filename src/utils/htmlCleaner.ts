@@ -1,23 +1,22 @@
-import DOMPurify from 'isomorphic-dompurify';
+import sanitizeHtml from 'sanitize-html';
 
 export const cleanHtmlForDisplay = (html: string | undefined | null): string => {
   if (!html || typeof html !== 'string') return '';
 
   // First, sanitize HTML to remove all dangerous content (XSS protection)
-  let sanitized = DOMPurify.sanitize(html, {
-    ALLOWED_TAGS: [
+  let sanitized = sanitizeHtml(html, {
+    allowedTags: [
       'p', 'br', 'strong', 'em', 'u', 'b', 'i',
       'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
       'ul', 'ol', 'li',
       'a', 'blockquote', 'pre', 'code',
       'div', 'span'
     ],
-    ALLOWED_ATTR: ['href', 'title', 'class', "alt", "width", "height"],
-    ALLOW_DATA_ATTR: false,
-    FORBID_TAGS: ['script', 'iframe', 'object', 'embed', 'form', 'input', 'button', 'style'],
-    FORBID_ATTR: ['onerror', 'onclick', 'onload', 'onmouseover', 'onfocus', 'onblur', 'style'],
-    ALLOW_ARIA_ATTR: false,
-    KEEP_CONTENT: true
+    allowedAttributes: {
+      '*': ['title', 'class', 'alt', 'width', 'height'],
+      a: ['href', 'title', 'class'],
+    },
+    disallowedTagsMode: 'discard',
   });
 
   // Then apply formatting cleanup
@@ -66,20 +65,20 @@ export const cleanHtmlForDisplay = (html: string | undefined | null): string => 
 export const sanitizeBlogContent = (html: string | undefined | null): string => {
   if (!html || typeof html !== 'string') return '';
 
-  return DOMPurify.sanitize(html, {
-    ALLOWED_TAGS: [
+  return sanitizeHtml(html, {
+    allowedTags: [
       'p', 'br', 'strong', 'em', 'u', 'b', 'i', 's', 'sub', 'sup',
       'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
       'ul', 'ol', 'li', 'dl', 'dt', 'dd',
       'a', 'blockquote', 'pre', 'code', 'hr',
       'div', 'span', 'img', 'table', 'thead', 'tbody', 'tr', 'td', 'th'
     ],
-    ALLOWED_ATTR: ['href', 'title', 'class', 'src', 'alt', 'width', 'height'],
-    ALLOW_DATA_ATTR: false,
-    FORBID_TAGS: ['script', 'iframe', 'object', 'embed', 'form', 'input', 'button', 'style'],
-    FORBID_ATTR: ['onerror', 'onclick', 'onload', 'onmouseover', 'onfocus', 'onblur', 'style'],
-    ALLOW_ARIA_ATTR: false,
-    KEEP_CONTENT: true
+    allowedAttributes: {
+      '*': ['title', 'class', 'alt', 'width', 'height'],
+      a: ['href', 'title', 'class'],
+      img: ['src', 'alt', 'width', 'height', 'class'],
+    },
+    disallowedTagsMode: 'discard',
   });
 };
 
