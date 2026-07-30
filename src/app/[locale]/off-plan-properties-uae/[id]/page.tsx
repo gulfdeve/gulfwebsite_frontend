@@ -97,7 +97,7 @@ export async function generateMetadata({
         property.location
       )}`;
 
-  const canonicalUrl = `${baseUrl}/${locale}/off-plan/${id}`;
+  const canonicalUrl = `${baseUrl}/${locale}/off-plan-properties-uae/${id}`;
   const imageUrl =
     property?.image && property?.image?.startsWith("http")
       ? property.image

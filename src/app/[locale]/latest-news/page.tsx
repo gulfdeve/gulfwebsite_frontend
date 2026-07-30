@@ -186,7 +186,7 @@ function LatestNews() {
                 bathRange={property.bathRange}
                 sizeRange={property.sizeRange}
                 image={property.image}
-                href={`/${locale}/off-plan/${property.slug || property._id}`}
+                href={`/${locale}/off-plan-properties-uae/${property.slug || property._id}`}
                 locale={currentLocale}
               />
             ))}
@@ -194,7 +194,7 @@ function LatestNews() {
         )}
         <div className="flex justify-center pt-6">
           <Link
-            href={`/${locale}/off-plan`}
+            href={`/${locale}/off-plan-properties-uae`}
             className="rounded-full border border-primary text-primary font-medium hover:bg-primary hover:text-white transition-colors duration-300 px-3 py-1"
           >
             Discover our Off Plan Properties

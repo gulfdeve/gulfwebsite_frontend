@@ -140,7 +140,7 @@ const SimilarOffPlans: React.FC<SimilarOffPlansProps> = ({
               bathRange={plan.bathRange}
               sizeRange={plan.sizeRange}
               image={plan.image || "/images/properties/default.jpg"}
-              href={`/${locale}/off-plan/${plan.slug || plan._id}`}
+              href={`/${locale}/off-plan-properties-uae/${plan.slug || plan._id}`}
               locale={locale}
             />
           ))}

@@ -62,34 +62,34 @@ export const siteMetadata: Record<string, PageMetadata> = {
   },
 
   // Buy page
-  "/buy": {
+  "/property-for-sale-uae": {
     title: "Buy Properties in Dubai | Luxury Apartments & Villas for Sale",
     description:
       "Find properties for sale in Dubai's top communities. Find apartments, villas & townhouses with flexible payment plans and expert support from Gulf Estates.",
-    canonical: `${BASE_URL}/buy`,
+    canonical: `${BASE_URL}/property-for-sale-uae`,
     ogImage: "/images/banner-image.webp",
     twitterImage: "/images/banner-image.webp",
   },
 
   // Rent page
-  "/rent": {
+  "/property-for-rent-uae": {
     title:
       "Properties for Rent in Dubai | Luxury Apartments & Villas for Rent",
     description:
       "Find luxury apartments, villas & townhouses for rent in Dubai's top areas. Discover fully furnished homes with flexible terms & expert rental support from Gulf Estates.",
-    canonical: `${BASE_URL}/rent`,
+    canonical: `${BASE_URL}/property-for-rent-uae`,
     ogImage: "/images/banner-image.webp",
     twitterImage: "/images/banner-image.webp",
   },
 
 
   // Off-Plans page
-  "/off-plan": {
+  "/off-plan-properties-uae": {
     title:
       "Off Plan Properties in Dubai | Upcoming Projects & Investment Deals",
     description:
       "Explore new off plan projects in Dubai. Find future-ready homes, flexible payment plans & smart property investments with Gulf Estates.",
-    canonical: `${BASE_URL}/off-plan`,
+    canonical: `${BASE_URL}/off-plan-properties-uae`,
     ogImage: "/images/banner-image.webp",
     twitterImage: "/images/banner-image.webp",
   },

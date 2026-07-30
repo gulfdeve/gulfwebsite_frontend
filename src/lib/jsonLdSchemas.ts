@@ -1680,10 +1680,10 @@ export function getJsonLdSchema(
 
   // Exclude schema for dynamic routes with slugs (properties/[id], off-plan/[id], blogs/[slug])
   // These pages have their own schema defined in their respective page.tsx files
-  // Match patterns like /properties/slug, /off-plan/slug, /blogs/slug (but not /properties, /off-plan, /blogs)
+  // Match patterns like /properties/slug, /off-plan-properties-uae/slug, /blogs/slug (but not /properties, /off-plan-properties-uae, /blogs)
   if (
     /^\/properties\/[^\/]+$/.test(cleanPathname) ||
-    /^\/off-plan\/[^\/]+$/.test(cleanPathname) ||
+    /^\/off-plan-properties-uae\/[^\/]+$/.test(cleanPathname) ||
     /^\/blogs\/[^\/]+$/.test(cleanPathname)
   ) {
     return null;

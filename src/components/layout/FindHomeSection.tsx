@@ -154,7 +154,7 @@ const FindHomeSection = () => {
             </h4>
             <p className="text-gray-700 mb-6">{t("findHome.list.desc")}</p>
             <Link
-              href={`/${locale}/off-plan`}
+              href={`/${locale}/off-plan-properties-uae`}
               className="self-start px-4 lg:px-8 lg:py-3 py-2 bg-white text-black font-medium rounded-md border border-black hover:bg-black hover:text-white transition-all duration-300"
             >
               {t("findHome.list.button")}

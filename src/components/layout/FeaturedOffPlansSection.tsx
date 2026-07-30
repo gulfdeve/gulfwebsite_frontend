@@ -200,7 +200,7 @@ const FeaturedOffPlansSection = () => {
                     bathRange={property?.bathRange}
                     sizeRange={property?.sizeRange}
                     image={property?.image}
-                    href={`/${locale}/off-plan/${property?.slug || property?._id}`}
+                    href={`/${locale}/off-plan-properties-uae/${property?.slug || property?._id}`}
                     locale={locale}
                     minHeight="610px"
                   />

@@ -370,7 +370,7 @@ export default function OffPlanList({ searchFilters }: OffPlanListProps) {
                 <SwiperSlide key={property._id}>
                   <FeaturedOffPlanCard
                     {...property}
-                    href={`/${locale}/off-plan/${
+                    href={`/${locale}/off-plan-properties-uae/${
                       property.slug || property._id
                     }`}
                     locale={locale}
@@ -386,7 +386,7 @@ export default function OffPlanList({ searchFilters }: OffPlanListProps) {
                   key={property._id}
                   {...property}
                   minHeight="610px"
-                  href={`/${locale}/off-plan/${property.slug || property._id}`}
+                  href={`/${locale}/off-plan-properties-uae/${property.slug || property._id}`}
                   locale={locale}
                 />
               ))}

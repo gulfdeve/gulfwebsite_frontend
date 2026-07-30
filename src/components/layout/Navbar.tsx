@@ -35,13 +35,13 @@ const Navbar = ({ locale }: NavbarProps) => {
       {
         key: "offplan",
         label: t("offplan", { defaultValue: "Off Plan" }),
-        href: "/off-plan",
+        href: "/off-plan-properties-uae",
       },
-      { key: "buy", label: t("buy", { defaultValue: "Buy" }), href: "/buy" },
+      { key: "buy", label: t("buy", { defaultValue: "Buy" }), href: "/property-for-sale-uae" },
       {
         key: "rent",
         label: t("rent", { defaultValue: "Rent" }),
-        href: "/rent",
+        href: "/property-for-rent-uae",
       },
       {
         key: "blogs",

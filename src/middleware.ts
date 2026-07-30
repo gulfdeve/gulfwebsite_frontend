@@ -7,9 +7,9 @@ export function middleware(request: NextRequest) {
   const url = request.nextUrl.clone();
   const pathname = url.pathname;
 
-  // Redirect storage routes (floor_plan_files and brochures) to /en/off-plan
+  // Redirect storage routes (floor_plan_files and brochures) to /en/off-plan-properties-uae
   if (pathname.startsWith('/storage/floor_plan_files/') || pathname.startsWith('/storage/brochures/')) {
-    url.pathname = '/en/off-plan';
+    url.pathname = '/en/off-plan-properties-uae';
     return NextResponse.redirect(url);
   }
 

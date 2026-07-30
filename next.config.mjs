@@ -12,6 +12,26 @@ const nextConfig = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/:locale(en|es|fr)/off-plan",
+        destination: "/:locale/off-plan-properties-uae",
+        permanent: true,
+      },
+      {
+        source: "/:locale(en|es|fr)/off-plan/:id",
+        destination: "/:locale/off-plan-properties-uae/:id",
+        permanent: true,
+      },
+      {
+        source: "/:locale(en|es|fr)/buy",
+        destination: "/:locale/property-for-sale-uae",
+        permanent: true,
+      },
+      {
+        source: "/:locale(en|es|fr)/rent",
+        destination: "/:locale/property-for-rent-uae",
+        permanent: true,
+      },
     ];
   },
 

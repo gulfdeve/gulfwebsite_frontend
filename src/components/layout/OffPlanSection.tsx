@@ -83,7 +83,7 @@ const OffPlanSection = () => {
             </div>
             <div className="mt-6">
               <Link
-                href={`/${locale}/off-plan`}
+                href={`/${locale}/off-plan-properties-uae`}
                 className="inline-flex items-center gap-2 px-4 py-2 text-primary border border-primary rounded-full font-medium hover:bg-primary hover:text-white transition-colors duration-300"
               >
                 {t("off-plan.button","Explore More")}

@@ -26,7 +26,7 @@ function escapeXml(unsafe: string): string {
 // Frontend sets changefreq and priority (customize as needed)
 function getChangefreqAndPriority(loc: string): { changefreq: string; priority: string } {
   if (loc.includes('/blogs/')) return { changefreq: 'weekly', priority: '0.7' };
-  if (loc.includes('/off-plan/')) return { changefreq: 'daily', priority: '0.8' };
+  if (loc.includes('/off-plan-properties-uae/')) return { changefreq: 'daily', priority: '0.8' };
   if (loc.includes('/properties/')) return { changefreq: 'daily', priority: '0.9' };
   return { changefreq: 'weekly', priority: '0.8' };
 }

@@ -21,7 +21,7 @@ const investmentRegions = [
     description:
       "Diversify into resilient prime zones with strong liquidity, long-term tenancy demand, and global buyer confidence.",
     cta: "Discover London assets",
-    path: "/buy",
+    path: "/property-for-sale-uae",
   },
   {
     city: "New York",
@@ -29,7 +29,7 @@ const investmentRegions = [
     description:
       "Access strategic city-core opportunities designed for long-term wealth positioning and portfolio stability.",
     cta: "View New York opportunities",
-    path: "/off-plan",
+    path: "/off-plan-properties-uae",
   },
 ];
 

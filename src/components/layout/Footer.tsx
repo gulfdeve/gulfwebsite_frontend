@@ -175,9 +175,9 @@ const Footer = ({ locale }: FooterProps) => {
               { href: "/about", label: t("footer.links.about_us","About Us") },
               { href: "/blogs", label: t("footer.links.blogs","Blogs") },
               { href: "/global-investment", label: t("footer.links.global_investment", "Global Investment") },
-              { href: "/off-plan", label: t("footer.links.off_plan","Off Plan") },
-              { href: "/rent", label: t("footer.links.rent","Rent") },
-              { href: "/buy", label: t("footer.links.buy","Buy") },
+              { href: "/off-plan-properties-uae", label: t("footer.links.off_plan","Off Plan") },
+              { href: "/property-for-rent-uae", label: t("footer.links.rent","Rent") },
+              { href: "/property-for-sale-uae", label: t("footer.links.buy","Buy") },
               { href: "/contact", label: t("footer.links.contact","Contact") },
             ].map((link) => (
               <Link
