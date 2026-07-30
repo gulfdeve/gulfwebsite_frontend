@@ -126,6 +126,22 @@ export default async function RootLayout({
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', '${googleAnalyticsId}');
+              gtag('config', 'G-4869J8EZ7M');
+            `,
+          }}
+        />
+        {/* Phone click conversion (Google Ads) - fires on any tel: link click, site-wide */}
+        <Script
+          id="phone-click-conversion"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.addEventListener('click', function(e) {
+                var link = e.target.closest && e.target.closest('a[href^="tel:"]');
+                if (link && window.gtag) {
+                  window.gtag('event', 'conversion', {'send_to': 'AW-11256119676/IFh9CPeZ9KcZEPyCq_cp'});
+                }
+              }, true);
             `,
           }}
         />
