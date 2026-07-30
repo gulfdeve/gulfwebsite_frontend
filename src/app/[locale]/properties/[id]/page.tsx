@@ -1,6 +1,7 @@
 import PropertyDetailPage from "./PropertyDetailPage";
 import type { Metadata } from "next";
 import Script from "next/script";
+import { permanentRedirect } from "next/navigation";
 
 interface Property {
   _id: string;
@@ -47,6 +48,25 @@ async function fetchProperty(
     return data?.data || null;
   } catch (err) {
     console.error(err);
+    return null;
+  }
+}
+
+// If a property was found under an old slug, resolve where it moved to
+async function fetchPropertyRedirect(
+  slug: string,
+  locale: string
+): Promise<string | null> {
+  const API_URL = process.env.NEXT_PUBLIC_API_URL!;
+  try {
+    const res = await fetch(
+      `${API_URL}/api/redirects/resolve/property/${locale}/${slug}`,
+      { cache: "no-store" }
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    return data?.newSlug || null;
+  } catch {
     return null;
   }
 }
@@ -141,7 +161,14 @@ export default async function Page({
 }) {
   const { id, locale } = await params;
   const property: any = await fetchProperty(id, locale);
-  
+
+  if (!property) {
+    const newSlug = await fetchPropertyRedirect(id, locale);
+    if (newSlug) {
+      permanentRedirect(`/${locale}/properties/${newSlug}`);
+    }
+  }
+
   // Get SEO schema from property based on locale
   const getLocalizedSchema = (schema: any): string | null => {
     if (!schema) return null;

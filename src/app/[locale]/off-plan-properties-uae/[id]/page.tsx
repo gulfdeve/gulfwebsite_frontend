@@ -1,6 +1,7 @@
 import PageClient from "./PageClient";
 import type { Metadata } from "next";
 import Script from "next/script";
+import { permanentRedirect } from "next/navigation";
 
 interface Property {
   _id: string;
@@ -46,6 +47,25 @@ async function fetchOffPlan(
     return data?.data || null;
   } catch (err) {
     console.error(err);
+    return null;
+  }
+}
+
+// If a property was found under an old slug, resolve where it moved to
+async function fetchOffPlanRedirect(
+  slug: string,
+  locale: string
+): Promise<string | null> {
+  const API_URL = process.env.NEXT_PUBLIC_API_URL!;
+  try {
+    const res = await fetch(
+      `${API_URL}/api/redirects/resolve/offplan/${locale}/${slug}`,
+      { cache: "no-store" }
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    return data?.newSlug || null;
+  } catch {
     return null;
   }
 }
@@ -141,7 +161,14 @@ export default async function Page({
 }) {
   const { id, locale } = await params;
   const property: any = await fetchOffPlan(id, locale);
-  
+
+  if (!property) {
+    const newSlug = await fetchOffPlanRedirect(id, locale);
+    if (newSlug) {
+      permanentRedirect(`/${locale}/off-plan-properties-uae/${newSlug}`);
+    }
+  }
+
   // Get SEO schema from off-plan based on locale
   const getLocalizedSchema = (schema: any): string | null => {
     if (!schema) return null;
