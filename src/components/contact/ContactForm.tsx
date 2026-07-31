@@ -134,6 +134,10 @@ const ContactForm = () => {
 
       if (data.success) {
         toast.success(t("form.toast.success"), { id: toastId });
+        // Google Ads conversion: contact form submission
+        (window as any).gtag?.("event", "conversion", {
+          send_to: "AW-11256119676/IFh9CPeZ9KcZEPyCq_cp",
+        });
         setFormData({
           firstName: "",
           lastName: "",
