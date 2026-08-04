@@ -41,6 +41,7 @@ export const buildSafeRoute = (segments: string[], locale?: string): string => {
 
 export const ALLOWED_QUERY_KEYS = [
   'type',
+  'category',
   'for',
   'location',
   'area',

@@ -30,7 +30,7 @@ const validateSearchParam = (key: string, value: string | null): string | null =
   if (!value) return null;
   
   // Whitelist allowed keys (properties API: type, for, location, minPrice, maxPrice, minBeds, minBaths, title)
-  const allowedKeys = ['type', 'for', 'location', 'minPrice', 'maxPrice', 'page', 'limit', 'handoverDate', 'minBeds', 'maxBeds', 'minBaths', 'maxBaths', 'bedrooms', 'lifestyle', 'title', 'propertyRange', 'priceRange', 'offeringType', 'area', 'handover'];
+  const allowedKeys = ['type', 'category', 'for', 'location', 'minPrice', 'maxPrice', 'page', 'limit', 'handoverDate', 'minBeds', 'maxBeds', 'minBaths', 'maxBaths', 'bedrooms', 'lifestyle', 'title', 'propertyRange', 'priceRange', 'offeringType', 'area', 'handover'];
   if (!allowedKeys.includes(key)) return null;
   
   // Validate based on key type
@@ -197,6 +197,12 @@ function PropertiesPageContent() {
       }
     }
 
+    // Lifestyle/marketing category (waterfront, luxury, green, branded) - independent of `type`
+    const validatedCategory = validateSearchParam("category", searchParams.get("category"));
+    if (validatedCategory) {
+      urlFilters.category = validatedCategory;
+    }
+
     if (!urlFilters.offeringType) {
       const validatedFor = validateSearchParam("for", searchParams.get("for"));
       if (validatedFor) {
@@ -299,6 +305,8 @@ function PropertiesPageContent() {
       // Backend getAllProperties supports: type, for, location, title, minPrice, maxPrice, minBeds, minBaths
       const propertyRange = filters.propertyRange || filters.type;
       if (propertyRange) apiFilters.type = propertyRange;
+
+      if (filters.category) apiFilters.communityCategory = filters.category;
 
       const offeringType = filters.offeringType || filters.for;
       if (offeringType) apiFilters.for = offeringType;

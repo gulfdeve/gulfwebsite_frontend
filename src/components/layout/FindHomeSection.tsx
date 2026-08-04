@@ -19,22 +19,22 @@ const FindHomeSection = () => {
     {
       src: "/images/find-home/luxury.webp",
       title: t("findHome.card2","LUXURY LIVING COMMUNITIES"),
-      link: `/${locale}/properties?type=luxury`,
+      link: `/${locale}/properties?category=luxury`,
     },
     {
       src: "/images/find-home/green.webp",
       title: t("findHome.card1","WATERFRONT & BEACHFRONT COMMUNITIES"),
-      link: `/${locale}/properties?type=waterfront`,
+      link: `/${locale}/properties?category=waterfront`,
     },
     {
       src: "/images/find-home/waterfront.webp",
       title: t("findHome.card3","GREEN COMMUNITIES"),
-      link: `/${locale}/properties?type=green`,
+      link: `/${locale}/properties?category=green`,
     },
     {
       src: "/images/find-home/building.webp",
       title: t("findHome.card4","BRANDED RESIDENTIAL COMMUNITIES"),
-      link: `/${locale}/properties?type=apartment`,
+      link: `/${locale}/properties?category=branded`,
     },
   ];
 
