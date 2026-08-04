@@ -22,12 +22,12 @@ const FindHomeSection = () => {
       link: `/${locale}/properties?type=luxury`,
     },
     {
-      src: "/images/find-home/waterfront.webp",
+      src: "/images/find-home/green.webp",
       title: t("findHome.card1","WATERFRONT & BEACHFRONT COMMUNITIES"),
       link: `/${locale}/properties?type=waterfront`,
     },
     {
-      src: "/images/find-home/green.webp",
+      src: "/images/find-home/waterfront.webp",
       title: t("findHome.card3","GREEN COMMUNITIES"),
       link: `/${locale}/properties?type=green`,
     },
