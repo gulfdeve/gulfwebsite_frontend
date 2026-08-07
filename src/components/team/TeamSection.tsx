@@ -11,6 +11,12 @@ interface TeamMember {
   department: string;
 }
 
+// Members pinned to the top of their department, regardless of API order.
+const PINNED_MEMBERS: { [department: string]: string } = {
+  "sales-team": "julio barros",
+  "marketing-and-media-creatives": "muhammad kamran",
+};
+
 export default function TeamSection() {
   const { t } = useTranslation("team");
   const [members, setMembers] = useState<TeamMember[]>([]);
@@ -58,10 +64,21 @@ export default function TeamSection() {
     // Convert to array format with title and members
     return Object.entries(departmentGroups)
       .filter(([_, members]) => members.length > 0)
-      .map(([department, teamMembers]) => ({
-        title: getDepartmentName(department),
-        members: teamMembers,
-      }));
+      .map(([department, teamMembers]) => {
+        const pinnedName = PINNED_MEMBERS[department];
+        const sortedMembers = pinnedName
+          ? [...teamMembers].sort((a, b) => {
+              const aPinned = a.name?.trim().toLowerCase() === pinnedName ? 0 : 1;
+              const bPinned = b.name?.trim().toLowerCase() === pinnedName ? 0 : 1;
+              return aPinned - bPinned;
+            })
+          : teamMembers;
+
+        return {
+          title: getDepartmentName(department),
+          members: sortedMembers,
+        };
+      });
   }, [members, t]);
   console.log({ teams });
 
