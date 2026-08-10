@@ -131,9 +131,23 @@ export async function generateMetadata({
     canonicalUrl = `${baseUrl}${cleanPathname}`;
   }
 
+  const cleanPath = pathname
+    .replace(/\/$/, "")
+    .replace(/^\/(en|fr|es)(\/|$)/, "/") || "/";
+  const NO_ROBOTS_PATHS = ["/privacy-policy", "/terms"];
+
   return {
     title: metadata?.title,
     description: metadata?.description,
+    ...(!NO_ROBOTS_PATHS.includes(cleanPath) && {
+      robots: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+        "max-video-preview": -1,
+      },
+    }),
     openGraph: {
       title: metadata?.title,
       description: metadata?.description,
