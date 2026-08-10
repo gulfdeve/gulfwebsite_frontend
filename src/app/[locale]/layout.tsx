@@ -170,6 +170,14 @@ export async function generateMetadata({
       description: metadata?.description,
       images: [fullTwitterImageUrl],
     },
-    alternates: { canonical: canonicalUrl },
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        en: `${baseUrl}/en${cleanPath === "/" ? "" : cleanPath}`,
+        fr: `${baseUrl}/fr${cleanPath === "/" ? "" : cleanPath}`,
+        es: `${baseUrl}/es${cleanPath === "/" ? "" : cleanPath}`,
+        "x-default": `${baseUrl}/en${cleanPath === "/" ? "" : cleanPath}`,
+      },
+    },
   };
 }
