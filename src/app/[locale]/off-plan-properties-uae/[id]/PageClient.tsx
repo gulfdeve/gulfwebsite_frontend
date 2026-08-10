@@ -251,7 +251,9 @@ export default function PageClient() {
   const cleanedDescription = cleanHtmlForDisplay(propertyDescription);
 
   // Handle brochure download
-  const handleDownloadBrochure = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleDownloadBrochure = async (
+    e: React.MouseEvent<HTMLButtonElement>
+  ) => {
     e.preventDefault();
     e.stopPropagation();
 
@@ -260,17 +262,27 @@ export default function PageClient() {
       return;
     }
 
-    // Create a temporary anchor element to trigger download
-    const link = document.createElement("a");
-    link.href = property.brochure;
-    link.download = `${propertyTitle || "brochure"}-brochure.pdf`;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
+    // Cloudinary serves brochures as extensionless raw files (wrong
+    // Content-Type/filename), so browsers/OS flag the download as an
+    // unrecognized file. Fetch as a blob and force a proper .pdf name.
+    try {
+      const res = await fetch(property.brochure);
+      const blob = await res.blob();
+      const blobUrl = URL.createObjectURL(
+        new Blob([blob], { type: "application/pdf" })
+      );
 
-    // Append to body, click, and remove
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+      const link = document.createElement("a");
+      link.href = blobUrl;
+      link.download = `${propertyTitle || "brochure"}-brochure.pdf`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(blobUrl);
+    } catch (err) {
+      console.error("Failed to download brochure", err);
+      window.open(property.brochure, "_blank", "noopener,noreferrer");
+    }
   };
 
   // Check if sizeRange already contains square feet units
