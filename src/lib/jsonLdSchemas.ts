@@ -731,7 +731,7 @@ function getContactPageSchema(locale: string): string {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "602, Al Habtoor Business Tower, Dubai Marina, P.O. Box 74461",
+        "streetAddress": "Galadari Bldg. 17 - Office 402 - Me'aisem First - Dubai Production City",
         "addressLocality": "Dubaï",
         "addressRegion": "Dubaï",
         "postalCode": "74461",
@@ -739,12 +739,12 @@ function getContactPageSchema(locale: string): string {
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 25.0794,
-        "longitude": 55.1417
+        "latitude": 25.0372259,
+        "longitude": 55.1834866
       },
       "telephone": "+97148735835",
       "email": "info@gulfestates.ae",
-      "hasMap": "https://www.google.com/maps/place/602+Al+Habtoor+Business+Tower,+Dubai+Marina",
+      "hasMap": "https://maps.app.goo.gl/cRWHAxLjnyfSD7pB7",
       "areaServed": [
         { "@type": "Place", "name": "Dubaï", "sameAs": "https://www.wikidata.org/wiki/Q612" },
         { "@type": "Place", "name": "Abou Dabi", "sameAs": "https://www.wikidata.org/wiki/Q1519" }
@@ -774,7 +774,7 @@ function getContactPageSchema(locale: string): string {
       "@id": "https://www.gulfestates.ae/fr/contact#webpage",
       "url": "https://www.gulfestates.ae/fr/contact",
       "name": "Contactez Gulf Estates – Experts immobiliers de luxe à Dubaï",
-      "description": "Contactez Gulf Estates pour acheter, vendre, louer ou investir dans l'immobilier de luxe à Dubaï. Contactez-nous par téléphone, email ou visitez notre bureau à Dubai Marina.",
+      "description": "Contactez Gulf Estates pour acheter, vendre, louer ou investir dans l'immobilier de luxe à Dubaï. Contactez-nous par téléphone, email ou visitez notre bureau à Dubai Production City.",
       "inLanguage": "fr",
       "isPartOf": { "@id": "https://www.gulfestates.ae/fr#website" },
       "publisher": { "@id": "https://www.gulfestates.ae/fr/contact#agent" },
@@ -827,7 +827,7 @@ function getContactPageSchema(locale: string): string {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "602, Al Habtoor Business Tower, Dubai Marina, P.O. Box 74461",
+        "streetAddress": "Galadari Bldg. 17 - Office 402 - Me'aisem First - Dubai Production City",
         "addressLocality": "Dubaï",
         "addressRegion": "Dubaï",
         "postalCode": "74461",
@@ -835,12 +835,12 @@ function getContactPageSchema(locale: string): string {
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 25.0794,
-        "longitude": 55.1417
+        "latitude": 25.0372259,
+        "longitude": 55.1834866
       },
       "telephone": "+97148735835",
       "email": "info@gulfestates.ae",
-      "hasMap": "https://www.google.com/maps/place/602+Al+Habtoor+Business+Tower,+Dubai+Marina",
+      "hasMap": "https://maps.app.goo.gl/cRWHAxLjnyfSD7pB7",
       "areaServed": [
         { "@type": "Place", "name": "Dubaï", "sameAs": "https://www.wikidata.org/wiki/Q612" },
         { "@type": "Place", "name": "Abou Dabi", "sameAs": "https://www.wikidata.org/wiki/Q1519" }
@@ -870,7 +870,7 @@ function getContactPageSchema(locale: string): string {
       "@id": "https://www.gulfestates.ae/fr/contact#webpage",
       "url": "https://www.gulfestates.ae/fr/contact",
       "name": "Contactez Gulf Estates – Experts immobiliers de luxe à Dubaï",
-      "description": "Contactez Gulf Estates pour acheter, vendre, louer ou investir dans l'immobilier de luxe à Dubaï. Contactez-nous par téléphone, email ou visitez notre bureau à Dubai Marina.",
+      "description": "Contactez Gulf Estates pour acheter, vendre, louer ou investir dans l'immobilier de luxe à Dubaï. Contactez-nous par téléphone, email ou visitez notre bureau à Dubai Production City.",
       "inLanguage": "fr",
       "isPartOf": { "@id": "https://www.gulfestates.ae/fr#website" },
       "publisher": { "@id": "https://www.gulfestates.ae/fr/contact#agent" },
@@ -923,7 +923,7 @@ function getContactPageSchema(locale: string): string {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "602, Al Habtoor Business Tower, Dubai Marina, P.O. Box 74461",
+        "streetAddress": "Galadari Bldg. 17 - Office 402 - Me'aisem First - Dubai Production City",
         "addressLocality": "Dubai",
         "addressRegion": "Dubai",
         "postalCode": "74461",
@@ -931,12 +931,12 @@ function getContactPageSchema(locale: string): string {
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 25.0794,
-        "longitude": 55.1417
+        "latitude": 25.0372259,
+        "longitude": 55.1834866
       },
       "telephone": "+97148735835",
       "email": "info@gulfestates.ae",
-      "hasMap": "https://www.google.com/maps/place/602+Al+Habtoor+Business+Tower,+Dubai+Marina",
+      "hasMap": "https://maps.app.goo.gl/cRWHAxLjnyfSD7pB7",
       "areaServed": [
         {"@type": "Place", "name": "Dubai City", "sameAs": "https://www.wikidata.org/wiki/Q612"},
         {"@type": "Place", "name": "Abu Dhabi", "sameAs": "https://www.wikidata.org/wiki/Q1519"}
@@ -973,7 +973,7 @@ function getContactPageSchema(locale: string): string {
       "@id": "https://www.gulfestates.ae/en/contact#webpage",
       "url": "https://www.gulfestates.ae/en/contact",
       "name": "Contact Gulf Estates – Dubai Luxury Real Estate Experts",
-      "description": "Get in touch with Gulf Estates to buy, sell, rent, or invest in luxury Dubai properties. Contact via phone, email, or visit our office in Dubai Marina.",
+      "description": "Get in touch with Gulf Estates to buy, sell, rent, or invest in luxury Dubai properties. Contact via phone, email, or visit our office in Dubai Production City.",
       "inLanguage": "en",
       "isPartOf": {"@id": "https://www.gulfestates.ae/en#website"},
       "publisher": {"@id": "https://www.gulfestates.ae/en/contact#agent"},

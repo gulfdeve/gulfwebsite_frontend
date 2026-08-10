@@ -40,7 +40,7 @@ const MapAndGallerySection = () => {
       {/* Google Map */}
       <div className="my-6">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57815.78218401818!2d55.06543624863282!3d25.085391699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b53c6fe36a1%3A0xb6dc0a807ec56420!2sAl%20Habtoor%20Business%20Tower!5e0!3m2!1sen!2sin!4v1727086897930!5m2!1sen!2sin"
+          src="https://www.google.com/maps?q=25.0372259,55.1834866&hl=en&z=16&output=embed"
           className="rounded-lg h-[400px] sm:h-[500px] w-full"
           allowFullScreen
           loading="lazy"
