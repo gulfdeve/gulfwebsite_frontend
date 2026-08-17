@@ -7,6 +7,8 @@ import { useTranslation } from "next-i18next";
 import SearchBox from "@/components/common/SearchBox";
 import FeaturedOffPlansSection from "@/components/layout/FeaturedOffPlansSection";
 import OffPlanSection from "@/components/layout/OffPlanSection";
+import GoldenVisaSection from "@/components/layout/GoldenVisaSection";
+import BusinessSetupSection from "@/components/layout/BusinessSetupSection";
 import FindHomeSection from "@/components/layout/FindHomeSection";
 import DeveloperSection from "@/components/layout/DeveloperSection";
 import TestimonialsSection from "@/components/layout/TestimonialSection";
@@ -100,6 +102,8 @@ export default function HomePage() {
         </div>
         <DeveloperSection />
         <OffPlanSection />
+        <GoldenVisaSection />
+        <BusinessSetupSection />
         <FindHomeSection />
         <TestimonialsSection />
         <BlogSection />

@@ -154,6 +154,16 @@ export const siteMetadata: Record<string, PageMetadata> = {
     twitterImage: "/images/banner-image.webp",
   },
 
+  // UAE business setup / company formation landing page
+  "/investors-business-setup-uae": {
+    title: "UAE Business Setup & Company Formation | Gulf Estates",
+    description:
+      "Start your business across all UAE emirates with Gulf Estates. Explore mainland and freezone company setup, formation services, online setup and the Basher platform.",
+    canonical: `${BASE_URL}/investors-business-setup-uae`,
+    ogImage: "/images/banner-image.webp",
+    twitterImage: "/images/banner-image.webp",
+  },
+
   // Global investment landing page
   "/global-investment": {
     title:

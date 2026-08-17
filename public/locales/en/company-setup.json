@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "title": "Establish a Company in the UAE"
+  },
+  "intro": {
+    "eyebrow": "A concise, website-ready summary based on the UAE Ministry of Economy & Tourism's official guidance on establishing businesses in the UAE.",
+    "title": "Start Your",
+    "highlight": "Business in the UAE",
+    "description": "The UAE offers a streamlined process for establishing businesses across all seven emirates. Investors can set up a company through mainland economic departments, free zones, or online services such as the Basher platform.",
+    "ctaPrimary": "Start Your UAE Business",
+    "ctaSecondary": "Check Your Business Setup Options"
+  },
+  "whyStart": {
+    "title": "Why Start a Business in the UAE?",
+    "items": [
+      "Investors of all nationalities can establish and fully own companies, subject to applicable laws and activity-specific requirements.",
+      "More than 2,000 economic activities are available across the UAE.",
+      "The UAE has more than 40 free zones offering different business setup options.",
+      "Businesses can apply through digital platforms or government service centres.",
+      "Basher can enable eligible investors to establish a business online in a very short time."
+    ]
+  },
+  "mainland": {
+    "title": "Mainland Company Setup",
+    "text": "For a mainland company, the process generally includes selecting the business activity, choosing the legal structure, reserving a trade name, obtaining initial approval, preparing the required company documents, selecting a business location, obtaining any additional approvals, submitting documents, paying fees and receiving the commercial licence.",
+    "stepsTitle": "Step-by-Step Process",
+    "steps": [
+      { "title": "Choose your business activity", "text": "Select from the UAE's wide range of economic activities and identify the appropriate licence." },
+      { "title": "Choose the legal structure", "text": "Options may include LLC, sole establishment, civil company, branches and joint-stock companies, depending on the activity." },
+      { "title": "Reserve a trade name", "text": "The name must meet UAE requirements and be available for registration." },
+      { "title": "Obtain initial approval", "text": "This confirms there is no objection to proceeding with the company setup; it does not itself authorise business operations." },
+      { "title": "Prepare company documents", "text": "A Memorandum of Association or other documents may be required depending on the legal structure." },
+      { "title": "Choose your business location", "text": "Companies generally need a physical address that meets local requirements." },
+      { "title": "Obtain additional approvals", "text": "Certain regulated activities require approval from the relevant government authority." },
+      { "title": "Submit documents", "text": "Provide the required application, approvals, lease documents and company documents." },
+      { "title": "Pay fees and receive your license", "text": "Once requirements are completed, the commercial licence can be issued through the relevant authority." },
+      { "title": "Chamber registration", "text": "Where applicable, register with the Chamber of Commerce in the emirate where the company is established." }
+    ]
+  },
+  "freeZone": {
+    "title": "Free Zone Company Setup",
+    "text": "Free zones offer specialised setup options for investors and entrepreneurs. Depending on the free zone and business activity, available licences can include commercial, consultancy, industrial, educational, media, eCommerce, freelancer, warehousing, manufacturing and innovation licences.",
+    "structuresTitle": "Free Zone Legal Structures",
+    "structures": [
+      "Free Zone Limited Liability Company (FZ LLC)",
+      "Free Zone Company (FZ Co.)",
+      "Free Zone Establishment (FZE)"
+    ],
+    "requirementsTitle": "Common Free Zone Requirements",
+    "requirementsText": "Investors may be asked for an application form, business plan, passport copies, manager/shareholder documents and other supporting documents. Requirements vary by free zone, business activity and company structure."
+  },
+  "chooseRight": {
+    "title": "Choose the Right Setup",
+    "text": "The best structure depends on your business activity, preferred location, office requirements and long-term plans. Mainland and free zone businesses have different licensing, location and regulatory requirements."
+  },
+  "cta": {
+    "title": "Need Help Setting Up",
+    "highlight": "Your UAE Company?",
+    "description": "Our team can help you understand the available company setup options, identify a suitable business structure and guide you through the next steps.",
+    "button": "Talk to a Business Setup Advisor"
+  },
+  "disclaimer": {
+    "title": "Important Disclaimer",
+    "text": "Business setup requirements, fees, approvals and licensing conditions can vary by emirate, free zone, legal structure and business activity. Applicants should confirm the latest requirements with the relevant UAE authorities before proceeding."
+  }
+}

@@ -29,6 +29,29 @@
       "BEST INVESTMENT PLANS"
     ]
   },
+  "goldenVisa": {
+    "title": "UAE",
+    "highlight": "Golden Visa",
+    "description": "The UAE Golden Visa is a long-term residence visa for eligible Real Estate investors, entrepreneurs, exceptional talents, outstanding students and graduates, humanitarian pioneers and frontline heroes. It allows eligible residents to live, work or study in the UAE with greater long-term stability.",
+    "benefitsTitle": "Key Benefits",
+    "benefits": [
+      "5- or 10-year renewable residence, depending on the category.",
+      "No traditional sponsor is required.",
+      "Greater flexibility when staying outside the UAE.",
+      "Ability to sponsor eligible family members, including spouse and children.",
+      "A long-term residency option for investors, professionals, entrepreneurs and exceptional talents."
+    ],
+    "button": "ENQUIRE ABOUT ELIGIBILITY"
+  },
+  "businessSetup": {
+    "title": "Start Your",
+    "highlight": "Business in the UAE",
+    "description": "The UAE offers a streamlined process for establishing businesses across all seven emirates. Investors can set up a company through mainland economic departments, free zones, or online services such as the Basher platform.",
+    "helpTitle": "Need Help Setting Up",
+    "helpHighlight": "Your UAE Company?",
+    "helpDescription": "Our team can help you understand the available company setup options, identify a suitable business structure and guide you through the next steps.",
+    "button": "Learn More"
+  },
   "findHome": {
     "title": "Explore High-Demand",
     "highlight": "Residential Communities",
