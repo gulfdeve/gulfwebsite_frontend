@@ -94,11 +94,11 @@ const Footer = ({ locale }: FooterProps) => {
           <div className="md:w-1/4 w-full">
             <ul className="space-y-2 text-white font-extralight tracking-wide leading-snug">
               <Link
-                href="tel:04 873 5835"
+                href="tel:+97143521833"
                 className="flex items-start gap-2 hover:text-white transition"
               >
                 <Phone className="text-gold w-4 h-4 mt-1 shrink-0" />
-                <span>04 873 5835</span>
+                <span>+971 4 352 1833</span>
               </Link>
               <Link
                 href="mailto:info@gulfestates.ae"
@@ -110,8 +110,9 @@ const Footer = ({ locale }: FooterProps) => {
               <li className="flex items-start gap-2 hover:text-white transition">
                 <MapPin className="text-gold w-4 h-4 mt-1 shrink-0" />
                 <span>
-                  Office 402, Galadari Bldg. 17 Dubai Production City (IMPZ)
-                  P.O. Box 74461, Dubai, U.A.E.
+                  The Bayswater by Omniyat - Marasi Dr - Business Bay
+                  <br />
+                  Floor 15th - Office No 1508
                 </span>
               </li>
             </ul>

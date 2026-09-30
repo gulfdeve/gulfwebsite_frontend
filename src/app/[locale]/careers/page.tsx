@@ -306,7 +306,9 @@ function Careers() {
                 </p>
                 <div className="flex items-center gap-2 text-white">
                   <Phone className="text-gold w-4 h-4 md:w-5 md:h-5 shrink-0" />
-                  <span className="text-sm md:text-lg">04 873 5835</span>
+                  <Link href="tel:+97143521833" className="text-sm md:text-lg hover:underline">
+                    +971 4 352 1833
+                  </Link>
                 </div>
               </div>
 

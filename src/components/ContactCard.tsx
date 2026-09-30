@@ -16,9 +16,9 @@ interface ContactCardProps {
 }
 
 export default function ContactCard({
-  phone = "04 873 5835",
+  phone = "+971 4 352 1833",
   email = "info@gulfestates.ae",
-  whatsapp = "048735835",
+  whatsapp = "97143521833",
   facebook = "https://www.facebook.com/gulfestatesuae/",
   twitter = "https://x.com/gulfestates/",
   cardShadow = "rgba(0, 0, 0, 0.25) -5px 4px 7.5px 4px",

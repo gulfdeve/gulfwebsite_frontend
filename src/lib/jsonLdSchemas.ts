@@ -32,19 +32,18 @@ function getHomePageSchema(locale: string): string {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Galadari Bldg. 17 - Office 402 - Me'aisem First - Dubai Production City",
-        "addressLocality": "Dubai",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
+        "addressLocality": "Business Bay",
         "addressRegion": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 25.0287,
-        "longitude": 55.1782
+        "latitude": 25.1854,
+        "longitude": 55.2812
       },
-      "hasMap": "https://share.google.com/v7cqTMe2aEES7V9Fm",
-      "telephone": "+97148735835",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=The+Bayswater+by+Omniyat+Marasi+Dr+Business+Bay+Dubai",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "areaServed": [
         { "@type": "Place", "name": "Dubai", "sameAs": "https://www.wikidata.org/wiki/Q612" },
@@ -73,7 +72,7 @@ function getHomePageSchema(locale: string): string {
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "service client",
-        "telephone": "+97148735835",
+        "telephone": "+97143521833",
         "email": "info@gulfestates.ae",
         "areaServed": "AE",
         "availableLanguage": ["fr","en"]
@@ -141,19 +140,18 @@ function getHomePageSchema(locale: string): string {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Galadari Bldg. 17 - Office 402 - Me'aisem First - Dubai Production City",
-        "addressLocality": "Dubai",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
+        "addressLocality": "Business Bay",
         "addressRegion": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 25.0287,
-        "longitude": 55.1782
+        "latitude": 25.1854,
+        "longitude": 55.2812
       },
-      "hasMap": "https://share.google.com/v7cqTMe2aEES7V9Fm",
-      "telephone": "+97148735835",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=The+Bayswater+by+Omniyat+Marasi+Dr+Business+Bay+Dubai",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "areaServed": [
         { "@type": "Place", "name": "Dubai", "sameAs": "https://www.wikidata.org/wiki/Q612" },
@@ -182,7 +180,7 @@ function getHomePageSchema(locale: string): string {
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "service client",
-        "telephone": "+97148735835",
+        "telephone": "+97143521833",
         "email": "info@gulfestates.ae",
         "areaServed": "AE",
         "availableLanguage": ["fr","en"]
@@ -250,19 +248,18 @@ function getHomePageSchema(locale: string): string {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Galadari Bldg. 17 - Office 402 - Me'aisem First - Dubai Production City",
-        "addressLocality": "Dubai",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
+        "addressLocality": "Business Bay",
         "addressRegion": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 25.0287,
-        "longitude": 55.1782
+        "latitude": 25.1854,
+        "longitude": 55.2812
       },
-      "hasMap": "https://share.google.com/v7cqTMe2aEES7V9Fm",
-      "telephone": "+97148735835",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=The+Bayswater+by+Omniyat+Marasi+Dr+Business+Bay+Dubai",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "areaServed": [
         {
@@ -327,7 +324,7 @@ function getHomePageSchema(locale: string): string {
         {
           "@type": "ContactPoint",
           "contactType": "customer service",
-          "telephone": "+97148735835",
+          "telephone": "+97143521833",
           "email": "info@gulfestates.ae",
           "areaServed": "AE",
           "availableLanguage": "en",
@@ -427,13 +424,12 @@ function getAboutPageSchema(locale: string): string {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Galadari Bldg. 17 - Office 402 - Me'aisem First - Dubai Production City",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubai",
         "addressRegion": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       },
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "sameAs": [
         "https://www.linkedin.com/company/gulfestatesae",
@@ -520,13 +516,12 @@ function getAboutPageSchema(locale: string): string {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Galadari Bldg. 17 - Office 402 - Me'aisem First - Dubai Production City",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubai",
         "addressRegion": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       },
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "sameAs": [
         "https://www.linkedin.com/company/gulfestatesae",
@@ -613,19 +608,18 @@ function getAboutPageSchema(locale: string): string {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Galadari Bldg. 17 - Office 402 - Me'aisem First - Dubai Production City",
-        "addressLocality": "Dubai",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
+        "addressLocality": "Business Bay",
         "addressRegion": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 25.0287,
-        "longitude": 55.1782
+        "latitude": 25.1854,
+        "longitude": 55.2812
       },
-      "hasMap": "https://share.google.com/v7cqTMe2aEES7V9Fm",
-      "telephone": "+97148735835",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=The+Bayswater+by+Omniyat+Marasi+Dr+Business+Bay+Dubai",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "areaServed": [
         {"@type": "Place", "name": "Dubai City", "sameAs": "https://www.wikidata.org/wiki/Q612"},
@@ -731,18 +725,17 @@ function getContactPageSchema(locale: string): string {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Galadari Bldg. 17 - Office 402 - Me'aisem First - Dubai Production City",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubaï",
         "addressRegion": "Dubaï",
-        "postalCode": "74461",
         "addressCountry": "AE"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 25.0372259,
-        "longitude": 55.1834866
+        "latitude": 25.1854,
+        "longitude": 55.2812
       },
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "hasMap": "https://maps.app.goo.gl/cRWHAxLjnyfSD7pB7",
       "areaServed": [
@@ -774,7 +767,7 @@ function getContactPageSchema(locale: string): string {
       "@id": "https://www.gulfestates.ae/fr/contact#webpage",
       "url": "https://www.gulfestates.ae/fr/contact",
       "name": "Contactez Gulf Estates – Experts immobiliers de luxe à Dubaï",
-      "description": "Contactez Gulf Estates pour acheter, vendre, louer ou investir dans l'immobilier de luxe à Dubaï. Contactez-nous par téléphone, email ou visitez notre bureau à Dubai Production City.",
+      "description": "Contactez Gulf Estates pour acheter, vendre, louer ou investir dans l'immobilier de luxe à Dubaï. Contactez-nous par téléphone, email ou visitez notre bureau à Business Bay, Dubaï.",
       "inLanguage": "fr",
       "isPartOf": { "@id": "https://www.gulfestates.ae/fr#website" },
       "publisher": { "@id": "https://www.gulfestates.ae/fr/contact#agent" },
@@ -827,18 +820,17 @@ function getContactPageSchema(locale: string): string {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Galadari Bldg. 17 - Office 402 - Me'aisem First - Dubai Production City",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubaï",
         "addressRegion": "Dubaï",
-        "postalCode": "74461",
         "addressCountry": "AE"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 25.0372259,
-        "longitude": 55.1834866
+        "latitude": 25.1854,
+        "longitude": 55.2812
       },
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "hasMap": "https://maps.app.goo.gl/cRWHAxLjnyfSD7pB7",
       "areaServed": [
@@ -870,7 +862,7 @@ function getContactPageSchema(locale: string): string {
       "@id": "https://www.gulfestates.ae/fr/contact#webpage",
       "url": "https://www.gulfestates.ae/fr/contact",
       "name": "Contactez Gulf Estates – Experts immobiliers de luxe à Dubaï",
-      "description": "Contactez Gulf Estates pour acheter, vendre, louer ou investir dans l'immobilier de luxe à Dubaï. Contactez-nous par téléphone, email ou visitez notre bureau à Dubai Production City.",
+      "description": "Contactez Gulf Estates pour acheter, vendre, louer ou investir dans l'immobilier de luxe à Dubaï. Contactez-nous par téléphone, email ou visitez notre bureau à Business Bay, Dubaï.",
       "inLanguage": "fr",
       "isPartOf": { "@id": "https://www.gulfestates.ae/fr#website" },
       "publisher": { "@id": "https://www.gulfestates.ae/fr/contact#agent" },
@@ -923,18 +915,17 @@ function getContactPageSchema(locale: string): string {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Galadari Bldg. 17 - Office 402 - Me'aisem First - Dubai Production City",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubai",
         "addressRegion": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 25.0372259,
-        "longitude": 55.1834866
+        "latitude": 25.1854,
+        "longitude": 55.2812
       },
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "hasMap": "https://maps.app.goo.gl/cRWHAxLjnyfSD7pB7",
       "areaServed": [
@@ -973,7 +964,7 @@ function getContactPageSchema(locale: string): string {
       "@id": "https://www.gulfestates.ae/en/contact#webpage",
       "url": "https://www.gulfestates.ae/en/contact",
       "name": "Contact Gulf Estates – Dubai Luxury Real Estate Experts",
-      "description": "Get in touch with Gulf Estates to buy, sell, rent, or invest in luxury Dubai properties. Contact via phone, email, or visit our office in Dubai Production City.",
+      "description": "Get in touch with Gulf Estates to buy, sell, rent, or invest in luxury Dubai properties. Contact via phone, email, or visit our office in Business Bay, Dubai.",
       "inLanguage": "en",
       "isPartOf": {"@id": "https://www.gulfestates.ae/en#website"},
       "publisher": {"@id": "https://www.gulfestates.ae/en/contact#agent"},
@@ -1011,12 +1002,11 @@ function getCareersPageSchema(locale: string): string {
       "legalName": "Gulf Sea Real Estate LLC",
       "url": "https://www.gulfestates.ae/fr",
       "logo": "https://www.gulfestates.ae/en/logo.png",
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Office 402, Galadari Bldg. 17, Dubai Production City (IMPZ)",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       }
     },
@@ -1065,7 +1055,8 @@ function getCareersPageSchema(locale: string): string {
         "@type": "Place",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Dubai Marina / IMPZ",
+          "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
+          "addressLocality": "Business Bay",
           "addressRegion": "Dubai",
           "addressCountry": "AE"
         }
@@ -1098,12 +1089,11 @@ function getCareersPageSchema(locale: string): string {
       "legalName": "Gulf Sea Real Estate LLC",
       "url": "https://www.gulfestates.ae/es",
       "logo": "https://www.gulfestates.ae/en/logo.png",
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Office 402, Galadari Bldg. 17, Dubai Production City (IMPZ)",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       }
     },
@@ -1152,7 +1142,8 @@ function getCareersPageSchema(locale: string): string {
         "@type": "Place",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Dubai Marina / IMPZ",
+          "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
+          "addressLocality": "Business Bay",
           "addressRegion": "Dubai",
           "addressCountry": "AE"
         }
@@ -1185,12 +1176,11 @@ function getCareersPageSchema(locale: string): string {
       "legalName": "Gulf Sea Real Estate LLC",
       "url": "https://www.gulfestates.ae/en",
       "logo": "https://www.gulfestates.ae/en/logo.png",
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Office 402, Galadari Bldg. 17, Dubai Production City (IMPZ)",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       }
     },
@@ -1239,7 +1229,8 @@ function getCareersPageSchema(locale: string): string {
         "@type": "Place",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Dubai Marina / IMPZ",
+          "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
+          "addressLocality": "Business Bay",
           "addressRegion": "Dubai",
           "addressCountry": "AE"
         }
@@ -1316,13 +1307,12 @@ function getPrivacyPolicyPageSchema(locale: string): string {
       "legalName": "Gulf Sea Real Estate LLC",
       "url": "https://www.gulfestates.ae/fr",
       "logo": "https://www.gulfestates.ae/en/logo.png",
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Office 402, Galadari Bldg. 17, Dubai Production City (IMPZ)",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       }
     }
@@ -1384,13 +1374,12 @@ function getPrivacyPolicyPageSchema(locale: string): string {
       "legalName": "Gulf Sea Real Estate LLC",
       "url": "https://www.gulfestates.ae/es",
       "logo": "https://www.gulfestates.ae/en/logo.png",
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Office 402, Galadari Bldg. 17, Dubai Production City (IMPZ)",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       }
     }
@@ -1452,13 +1441,12 @@ function getPrivacyPolicyPageSchema(locale: string): string {
       "legalName": "Gulf Sea Real Estate LLC",
       "url": "https://www.gulfestates.ae/en",
       "logo": "https://www.gulfestates.ae/en/logo.png",
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Office 402, Galadari Bldg. 17, Dubai Production City (IMPZ)",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       }
     }
@@ -1521,13 +1509,12 @@ function getTermsPageSchema(locale: string): string {
       "legalName": "Gulf Sea Real Estate LLC",
       "url": "https://www.gulfestates.ae/fr",
       "logo": "https://www.gulfestates.ae/en/logo.png",
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Office 402, Galadari Bldg. 17, Dubai Production City (IMPZ)",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       }
     }
@@ -1589,13 +1576,12 @@ function getTermsPageSchema(locale: string): string {
       "legalName": "Gulf Sea Real Estate LLC",
       "url": "https://www.gulfestates.ae/es",
       "logo": "https://www.gulfestates.ae/en/logo.png",
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Office 402, Galadari Bldg. 17, Dubai Production City (IMPZ)",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       }
     }
@@ -1657,13 +1643,12 @@ function getTermsPageSchema(locale: string): string {
       "legalName": "Gulf Sea Real Estate LLC",
       "url": "https://www.gulfestates.ae/en",
       "logo": "https://www.gulfestates.ae/en/logo.png",
-      "telephone": "+97148735835",
+      "telephone": "+97143521833",
       "email": "info@gulfestates.ae",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Office 402, Galadari Bldg. 17, Dubai Production City (IMPZ)",
+        "streetAddress": "The Bayswater by Omniyat - Marasi Dr - Business Bay, 15th Floor - Office 1508",
         "addressLocality": "Dubai",
-        "postalCode": "74461",
         "addressCountry": "AE"
       }
     }

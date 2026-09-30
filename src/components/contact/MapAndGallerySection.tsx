@@ -40,7 +40,7 @@ const MapAndGallerySection = () => {
       {/* Google Map */}
       <div className="my-6">
         <iframe
-          src="https://www.google.com/maps?q=25.0372259,55.1834866&hl=en&z=16&output=embed"
+          src="https://www.google.com/maps?q=The+Bayswater+by+Omniyat+Marasi+Dr+Business+Bay+Dubai&hl=en&z=16&output=embed"
           className="rounded-lg h-[400px] sm:h-[500px] w-full"
           allowFullScreen
           loading="lazy"

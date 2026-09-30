@@ -36,8 +36,8 @@ const ContactInfoSection = () => {
                     {t("infoSection.call")}
                   </h3>
                   <p className="text-sm text-gray-200">
-                    <Link href="tel:+97148735835" className=" hover:underline">
-                      +971 4 873 5835
+                    <Link href="tel:+97143521833" className=" hover:underline">
+                      +971 4 352 1833
                     </Link>
                   </p>
                 </div>
@@ -134,7 +134,7 @@ const ContactInfoSection = () => {
       </div>
       <div className="mt-6 pb-1">
         <iframe
-          src="https://www.google.com/maps?q=25.0372259,55.1834866&hl=en&z=16&output=embed"
+          src="https://www.google.com/maps?q=The+Bayswater+by+Omniyat+Marasi+Dr+Business+Bay+Dubai&hl=en&z=16&output=embed"
           className="rounded-lg h-[200px] sm:h-[300px] w-full"
           allowFullScreen
           loading="lazy"
