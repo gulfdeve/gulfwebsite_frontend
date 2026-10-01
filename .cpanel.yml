@@ -1,4 +1,7 @@
 ---
 deployment:
   tasks:
+    - export DEPLOY_PATH=/home/putdfhal/gulf-estates/gulf-frontend
+    - export REPO_URL=https://github.com/gulfdeve/gulfwebsite_frontend.git
+    - /bin/bash -c "cd $DEPLOY_PATH && git remote set-url origin $REPO_URL && git fetch origin main && git reset --hard origin/main"
     - /bin/bash -c "cd /home/putdfhal/gulf-estates/gulf-frontend && nohup bash -c 'source /home/putdfhal/nodevenv/gulf-estates/gulf-frontend/24/bin/activate && npm install && npm run build && mkdir -p tmp && touch tmp/restart.txt && echo DEPLOY_DONE' > /tmp/gulf_deploy.log 2>&1 &"
