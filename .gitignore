@@ -20,7 +20,7 @@ tmp/
 # next.js
 /.next/
 /out/
-
+server.js
 # production
 /build
 
