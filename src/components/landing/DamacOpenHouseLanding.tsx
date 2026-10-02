@@ -144,7 +144,7 @@ export default function DamacOpenHouseLanding() {
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
                 src="https://res.cloudinary.com/dnidcoojq/image/upload/v1782280739/WhatsApp_Image_2026-06-24_at_09.58.32_lyah4p.jpg"
-                alt="Aerial view of DAMAC Hills luxury villas and golf course at twilight, Dubai"
+                alt="Aerial view of DAMAC Hills luxury villas and golf course at twilight, Dubai UAE"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"

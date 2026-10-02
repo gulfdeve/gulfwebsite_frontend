@@ -1,48 +1,80 @@
 # cPanel deployment — Gulf Estates frontend
 
-Production path: `/home/putdfhal/gulf-estates/gulf-frontend`  
-Git remote: `https://github.com/gulfdeve/gulfwebsite_frontend.git`
+| Item | Value |
+|------|--------|
+| **Server path** | `/home/putdfhal/gulf-estates/gulf-frontend` |
+| **cPanel repo path** | `gulf-estates/gulf-frontend` |
+| **Git remote** | `https://github.com/gulfdeve/gulfwebsite_frontend.git` |
+| **Branch** | `main` |
+| **Live domain** | `gulfestates.ae` (and usually `www.gulfestates.ae`) |
+| **Startup file** | `server.js` |
 
-## 1. Connect Git in cPanel
+---
 
-1. Log in to **cPanel** → **Git™ Version Control**.
-2. If an old repository is linked to this path, either:
-   - **Edit** the existing clone and set **Repository URL** to  
-     `https://github.com/gulfdeve/gulfwebsite_frontend.git`, then **Update**, or
-   - **Remove** the old clone and **Create** a new clone:
-     - Clone URL: `https://github.com/gulfdeve/gulfwebsite_frontend.git`
-     - Repository Path: `gulf-estates/gulf-frontend`
-     - Branch: `main`
-3. Enable **Pull on deployment** (or use **Deploy HEAD Commit** after each push to GitHub).
+## A. Fresh setup (new Git clone + new Node.js app)
 
-## 2. Configure the Node.js application
+Do this when the site shows a directory listing, 404 on `/en`, or an old repo is linked to the wrong GitHub URL.
 
-1. cPanel → **Setup Node.js App**.
-2. Create or edit the app for this site with:
+### A1. Remove conflicting apps (if any)
 
-| Setting | Value |
-|--------|--------|
-| **Node.js version** | **24** (matches `nodevenv/.../24`) |
-| **Application mode** | Production |
-| **Application root** | `gulf-estates/gulf-frontend` |
-| **Application URL** | Your live domain (or subdomain) |
-| **Application startup file** | `server.js` |
+1. **cPanel → Setup Node.js App** — stop and **Delete** any old app that used `gulfestates.ae` or the same folder (avoid two apps on one domain).
+2. **cPanel → Git™ Version Control** — if an old clone exists at `gulf-estates/gulf-frontend`, open it → **Remove** (or **Delete** repository) only if you intend to re-clone cleanly.
+3. **cPanel → File Manager** → `/home/putdfhal/gulf-estates/`  
+   - If `gulf-frontend` is empty or only junk, delete its contents.  
+   - Do **not** leave a huge zip (e.g. `gulf_backup20oct.zip`) in the **domain document root** that Apache serves instead of Node — move backups outside `public_html` / the live docroot.
 
-3. **Environment variables** (add in the Node.js app UI — use production values, not localhost):
+### A2. Create a new Git clone
 
-| Variable | Example |
-|----------|---------|
-| `NEXT_PUBLIC_API_URL` | `https://backend.gulfestates.ae` (or your live API) |
-| `NEXT_PUBLIC_BASE_URL` | `https://gulfestates.ae` |
-| `NEXT_PUBLIC_GOOGLE_TAGMANAGER_ID` | Your GTM ID |
-| `NEXT_PUBLIC_LIVEAVATAR_ENABLED` | `false` or `true` |
-| `LIVEAVATAR_*` | Only if Live Avatar is enabled |
+1. **cPanel → Git™ Version Control** → **Create**.
+2. Fill in:
 
-`PORT` is usually set automatically by cPanel; do not hard-code it unless support asks you to.
+   | Field | Value |
+   |-------|--------|
+   | **Clone URL** | `https://github.com/gulfdeve/gulfwebsite_frontend.git` |
+   | **Repository Path** | `gulf-estates/gulf-frontend` |
+   | **Repository Name** | e.g. `gulf-frontend` |
 
-4. Click **Run NPM Install**, then **Restart** the application.
+3. Click **Create**. cPanel clones into `/home/putdfhal/gulf-estates/gulf-frontend`.
+4. Open the new repository → set **Branch** to **`main`** if needed.
+5. Click **Pull or Deploy** → **Update from Remote** (first pull), then **Deploy HEAD Commit** so `.cpanel.yml` runs (install + build in background).
 
-## 3. Deploy from Terminal (one-time or manual)
+If Git reports “dubious ownership”, run once in **Terminal**:
+
+```bash
+git config --global --add safe.directory /home/putdfhal/gulf-estates/gulf-frontend
+```
+
+### A3. Create the Node.js application (`gulfestates.ae`)
+
+1. **cPanel → Setup Node.js App** → **Create Application**.
+2. Use these settings:
+
+   | Setting | Value |
+   |---------|--------|
+   | **Node.js version** | **20** or **24** (must satisfy `package.json`: `>=20.19.0`) |
+   | **Application mode** | **Production** |
+   | **Application root** | `gulf-estates/gulf-frontend` |
+   | **Application URL** | **`gulfestates.ae`** (pick from domain list; path usually `/`) |
+   | **Application startup file** | `server.js` |
+
+3. **Environment variables** (Node.js app → **Edit** → **Environment variables**):
+
+   | Variable | Suggested value |
+   |----------|-----------------|
+   | `NODE_ENV` | `production` |
+   | `NEXT_PUBLIC_BASE_URL` | `https://gulfestates.ae` |
+   | `NEXT_PUBLIC_API_URL` | Your live API (e.g. `https://backend.gulfestates.ae`) |
+   | `NEXT_PUBLIC_GOOGLE_TAGMANAGER_ID` | Your GTM ID, if used |
+   | `NEXT_PUBLIC_LIVEAVATAR_ENABLED` | `false` unless you use Live Avatar |
+
+   Leave **`PORT`** unset unless cPanel support tells you to set it — Passenger injects it.
+
+4. Click **Create**.
+5. On the app page, copy the **“Enter to the virtual environment”** command (looks like  
+   `source /home/putdfhal/nodevenv/gulf-estates/gulf-frontend/24/bin/activate` — the version number may differ).
+6. Click **Run NPM Install**, then **Restart**.
+
+### A4. Build and restart (Terminal — recommended after first clone)
 
 In **cPanel → Terminal**:
 
@@ -50,23 +82,92 @@ In **cPanel → Terminal**:
 bash /home/putdfhal/gulf-estates/gulf-frontend/scripts/cpanel-deploy.sh
 ```
 
-If the script is not on the server yet, run once after updating Git:
+If the script is missing on the first pull, run manually:
 
 ```bash
 cd /home/putdfhal/gulf-estates/gulf-frontend
 git remote set-url origin https://github.com/gulfdeve/gulfwebsite_frontend.git
 git fetch origin && git checkout main && git reset --hard origin/main
-source /home/putdfhal/nodevenv/gulf-estates/gulf-frontend/24/bin/activate
+source /home/putdfhal/nodevenv/gulf-estates/gulf-frontend/24/bin/activate   # use path from Node.js app UI
 npm install && npm run build
 mkdir -p tmp && touch tmp/restart.txt
 ```
 
-## 4. Automatic deploy on push (`.cpanel.yml`)
+Then in **Setup Node.js App** → **Restart**. Status should be **Running**.
 
-After Git is pointed at `gulfwebsite_frontend`, cPanel runs `.cpanel.yml` on deploy: install, build, and `tmp/restart.txt` to restart the app.
+### A5. Domain, SSL, and `www`
 
-## 5. Verify
+1. **cPanel → Domains** — ensure **`gulfestates.ae`** and **`www.gulfestates.ae`** point at this account (A record to server IP when you cut over DNS).
+2. **cPanel → SSL/TLS Status** or **AutoSSL** — run AutoSSL so HTTPS is valid (expired certs break browsers).
+3. Prefer **one** Node app on **`gulfestates.ae`**, then add a **redirect** from `www` → apex (or the reverse), in **Domains → Redirects**, so both hostnames hit the same app.
 
-- Node.js app status: **Running**
-- Build log: `/tmp/gulf_deploy.log` (if using `.cpanel.yml` background task)
-- Site loads with correct API and canonical URL from env vars
+### A6. Verify
+
+- **https://gulfestates.ae/en** — homepage loads (Next.js, not “Index of /”).
+- **https://gulfestates.ae/en/contact** — phone **+971 4 352 1833**, address **The Bayswater by Omniyat… Office 1508**.
+- Node app: **Running**; build log: `tail -f /tmp/gulf_deploy.log` after **Deploy HEAD Commit**.
+
+---
+
+## B. Update existing Git (no new Node app)
+
+1. **Git™ Version Control** → open `gulf-estates/gulf-frontend`.
+2. Set **Clone URL** to `https://github.com/gulfdeve/gulfwebsite_frontend.git` → **Update**.
+3. **Pull or Deploy** → **Deploy HEAD Commit**.
+4. Or run: `bash /home/putdfhal/gulf-estates/gulf-frontend/scripts/cpanel-deploy.sh`
+5. **Setup Node.js App** → **Restart**.
+
+---
+
+## C. Automatic deploy (`.cpanel.yml`)
+
+On **Deploy HEAD Commit**, cPanel runs:
+
+- `git fetch` / `reset --hard origin/main`
+- background: `npm install`, `npm run build`, `tmp/restart.txt`
+
+---
+
+## D. Troubleshooting
+
+| Symptom | Likely cause | Fix |
+|---------|----------------|-----|
+| **Index of /** with a `.zip` at `/` | Apache docroot, not Node | Create Node app on `gulfestates.ae`; remove/move files from wrong docroot |
+| **404** on `/en` | No Passenger / app stopped | Restart Node app; confirm startup `server.js` and root path |
+| **Passenger: “We're sorry, but something went wrong” / app could not be started** | No `.next` build (Git does not include it) or startup crash | See section E below |
+| **`npm run build` fails** | Wrong Node version or missing deps | Use Node ≥ 20.19; run `npm install` inside cPanel venv |
+| **Old phone/address** | Stale build | `git reset --hard origin/main`, rebuild, restart |
+| Git safe.directory error | cPanel Git quirk | `git config --global --add safe.directory ...` (see A2) |
+
+---
+
+## E. Fix Passenger “application could not be started”
+
+Creating the Node.js app only starts `server.js`. It does **not** compile Next.js. `.next/` is gitignored, so a clone is not enough.
+
+In **cPanel → Terminal**:
+
+```bash
+# Use the activate path from Setup Node.js App if it is not /24/
+source /home/putdfhal/nodevenv/gulf-estates/gulf-frontend/24/bin/activate
+cd /home/putdfhal/gulf-estates/gulf-frontend
+
+# Confirm files exist
+ls -la server.js package.json
+ls -la .next/BUILD_ID || echo "NO BUILD YET"
+
+npm install
+npm run build
+
+# Confirm the build
+test -f .next/BUILD_ID && echo BUILD_OK
+mkdir -p tmp && touch tmp/restart.txt
+
+# See the real crash reason if it still fails
+tail -100 stderr.log 2>/dev/null
+tail -100 /tmp/gulf_deploy.log 2>/dev/null
+```
+
+Then **Setup Node.js App → Restart**. Startup file must be `server.js`.
+
+If `npm run build` errors, the Passenger page will keep showing until that build succeeds.
