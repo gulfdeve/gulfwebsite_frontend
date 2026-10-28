@@ -10,6 +10,10 @@ interface AmenitiesProps {
 const Amenities: React.FC<AmenitiesProps> = ({ features, title }) => {
   if (!features || features.length === 0) return null;
 
+  const sortedFeatures = [...features].sort((a, b) =>
+    a.localeCompare(b, undefined, { sensitivity: "base" })
+  );
+
   return (
     <section className="my-10">
       <div className="w-[150px] font-semibold text-primary text-3xl my-4">
@@ -18,7 +22,7 @@ const Amenities: React.FC<AmenitiesProps> = ({ features, title }) => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 font-primary">
-        {features.map((feature, index) => {
+        {sortedFeatures.map((feature, index) => {
           const Icon = getIconForAmenity(feature);
 
           return (
